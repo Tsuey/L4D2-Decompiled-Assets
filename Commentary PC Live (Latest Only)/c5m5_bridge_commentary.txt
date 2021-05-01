@@ -1,0 +1,11 @@
+"Entities"
+{	
+	entity
+	{
+		"classname" "info_remarkable"
+		"targetname" "C5M5Truck"
+		"origin" "3658.275391 6444.389160 455.531250"
+		"angles" "21.638504 -2.366174 0.000000"
+		"contextsubject" "C5M5Truck"
+	}
+}
