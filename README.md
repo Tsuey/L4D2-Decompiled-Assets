@@ -10,14 +10,14 @@ See "File Hashes and Information.txt" for MD5, SHA1, File Sizes and more.
 
 Commentary PC Live (Latest Only):
 
-	Best PC _commentary.txt files. TLS Community Update reduced some
-	File Sizes because they were optimized, converted to VScript, or
-	integrated into LMP files. Very high entropy.
+	Best PC _commentary.txt files. TLS Community Updates reduce some
+	File Sizes due to optmization, VScript conversion, or integration
+	into *.LMP files. Very high entropy.
 
 Commentary Survivors Arcade (Largest Only):
 
 	Best L4D: Survivors Arcade (Taito) _commentary.txt files. These
-	were only ever made larger over time. Negligible entropy.
+	were only made larger from _dlc1-3 to update. Negligible entropy.
 
 Decompiled Dedicated Server VMF's (Excludes LMP's):
 
@@ -32,7 +32,9 @@ Decompiled PC Live VMF's (Excludes LMP's):
 
 Decompiled Survivors Arcade VMF's:
 
-	L4D: Survivors Arcade (Taito) map decompiles.
+	L4D: Survivors Arcade (Taito) map decompiles. Taito was allowed
+	to recompile the maps; however, for PC updates, we are strictly
+	forbidden from doing so due to testing costs and risks.
 
 	See "File Hashes and Information.txt" for hashes of original BSP's
 	and other files under "Extracted Survivors Arcade Originals".
