@@ -1,0 +1,15 @@
+"Entities"
+{
+	//Added a playerblocker to solve a small stuck spot next to the military truck leading to the barricade
+	entity
+	{
+		"id" "5532123"
+		"classname" "env_player_blocker"
+		"BlockType" "0"
+		"initialstate" "1"
+		"maxs" "28 24 28"
+		"mins" "-8 -8 -8"
+		"origin" "2552 2292 460"
+		"mapupdate" "1"
+	}
+}

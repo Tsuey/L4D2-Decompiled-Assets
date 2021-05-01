@@ -1,0 +1,114 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_gamemode"
+		"angles" "0 0 0"
+		connections
+		{
+			"OnCoop" "stadium_exit_left_physicsblockerDisable1-1"
+			"OnScavenge" "stadium_exit_left_physicsblockerDisable1-1"
+			"OnSurvival" "stadium_exit_left_physicsblockerDisable1-1"
+			"OnVersus" "stadium_exit_left_physicsblockerDisable1-1"
+		}
+		"origin" "-1136 2664 -208"
+		"mapupdate" "1"
+	}
+	"entity"
+	{
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "1"
+		"targetname" "stadium_exit_left_relay"
+		connections
+		{
+			"OnTrigger" "stadium_exit_left_physicsblockerEnable17-1"
+			"OnTrigger" "stadium_exit_leftt_escape_triggerDisable1.1-1"
+			"OnTrigger" "stadium_exit_leftt_escape_triggerEnable17-1"
+		}
+		"origin" "-1136 2664 -240"
+		"mapupdate" "1"
+	}
+	"entity"
+	{
+		"classname" "env_physics_blocker"
+		"angles" "0 45 -45"
+		"BlockType" "4"
+		"boxmaxs" "57 4 24"
+		"boxmins" "-57 -4 -24"
+		"initialstate" "0"
+		"targetname" "stadium_exit_left_physicsblocker"
+		"origin" "-1139.64 2655.34 -5.97091"
+		"mapupdate" "1"
+	}
+	"entity"
+	{
+		"classname" "env_player_blocker"
+		"BlockType" "0"
+		"initialstate" "1"
+		"maxs" "11 155 92"
+		"mins" "-11 0 -0"
+		"origin" "-1800 2373 335"
+		"mapupdate" "1"
+	}
+	"entity"
+	{
+		"classname" "env_player_blocker"
+		"BlockType" "0"
+		"initialstate" "1"
+		"maxs" "11 194 100"
+		"mins" "-11 0 -0"
+		"origin" "-1800 2181 327"
+		"mapupdate" "1"
+	}
+	"entity"
+	{
+		"classname" "env_player_blocker"
+		"BlockType" "0"
+		"initialstate" "1"
+		"maxs" "11 194 116"
+		"mins" "-11 0 -0"
+		"origin" "-1800 1989 311"
+		"mapupdate" "1"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "c2m5_button2"
+		"origin" "-1894.7600097656 3375.8500976563 -140.6499938965"
+		"angles" "0 175.7916870117 0"
+		"contextsubject" "c2m5_button2"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "c2m5_seestage"
+		"origin" "-3570.8999023438 2998.0900878906 -204.4299926758"
+		"angles" "0 0.7896283269 0"
+		"contextsubject" "c2m5_seestage"
+	}
+	"entity"
+	{
+		"classname" "env_player_blocker"
+		"BlockType" "1"
+		"initialstate" "1"
+		"maxs" "40 84 256"
+		"mins" "-40 -84 -256"
+		"origin" "-1248 3316 80"
+		"mapupdate" "1"
+	}
+	
+// Blocks survivors from being able to get into the high windows near the concert, which was possible through being tanked punched.
+	
+	entity
+	{
+		"id" "2417546"
+		"classname" "env_player_blocker"
+		"BlockType" "1"
+		"initialstate" "1"
+		"maxs" "258 10 1064"
+		"mins" "-8 -10 -8"
+		"origin" "-3325 3720 -40"
+		"mapupdate" "1"
+	}
+}

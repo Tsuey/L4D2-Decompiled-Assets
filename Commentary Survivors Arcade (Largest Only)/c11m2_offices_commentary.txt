@@ -1,0 +1,134 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_path01"
+		"origin" "4955.1201171875 3324.5400390625 143.8500061035"
+		"angles" "0 9.1365184784 0"
+		"contextsubject" "airport02_path01"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_path02"
+		"origin" "8954.8896484375 3500.8701171875 742.4899902344"
+		"angles" "0 0.4249587059 0"
+		"contextsubject" "airport02_path02"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_path03"
+		"origin" "9486.76953125 4236.6098632813 312.0700073242"
+		"angles" "0 -15.3725147247 0"
+		"contextsubject" "airport02_path03"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_path04"
+		"origin" "8398.740234375 4330.0600585938 594.8499755859"
+		"angles" "0 -153.3842315674 0"
+		"contextsubject" "airport02_path04"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_path05"
+		"origin" "7538.4301757813 5596.240234375 212.2599945068"
+		"angles" "0 86.6287155151 0"
+		"contextsubject" "airport02_path05"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_path06"
+		"origin" "8898.3798828125 4662.1098632813 124.4400024414"
+		"angles" "0 -91.3491287231 0"
+		"contextsubject" "airport02_path06"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_creshendo01a"
+		"origin" "5767.009765625 3177.6298828125 631.4000244141"
+		"angles" "0 -176.993927002 0"
+		"contextsubject" "airport02_creshendo01a"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "airport02_creshendo01b"
+		"origin" "6056.1499023438 3810.9099121094 701.049987793"
+		"angles" "0 83.8082427979 0"
+		"contextsubject" "airport02_creshendo01b"
+	}
+
+	// Adds the freezer door for Co-op mode.
+	entity
+	{
+		"id" "3203286"
+		"classname" "prop_door_rotating"
+		"ajarangles" "0 0 0"
+		"angles" "0 90 0"
+		"axis" "5651.99 2660.02 104.28, 5651.99 2660.02 104.28"
+		"body" "0"
+		"disableshadows" "1"
+		"distance" "90"
+		"dmg" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"forceclosed" "0"
+		"hardware" "1"
+		"health" "0"
+		"model" "models/props_doors/doorfreezer01.mdl"
+		"opendir" "0"
+		"returndelay" "-1"
+		"skin" "0"
+		"spawnflags" "8192"
+		"spawnpos" "1"
+		"speed" "200"
+		"targetname" "freezer_door"
+		"origin" "5652 2660 104.277"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "3203287"
+		"classname" "info_gamemode"
+		"angles" "0 0 0"
+		connections
+		{
+			"OnVersus" "freezer_doorKill0-1"
+		}
+		"origin" "5374.08 2705.11 57"
+		"mapupdate" "1"
+	}
+
+	// Adds the missing sound when lowering the crane.
+	entity
+	{
+		"classname" "ambient_generic"
+		"cspinup" "0"
+		"fadeinsecs" "0"
+		"fadeoutsecs" "0"
+		"health" "10"
+		"lfomodpitch" "0"
+		"lfomodvol" "0"
+		"lforate" "0"
+		"lfotype" "0"
+		"message" "Elevator.Squeak_Loud_dlc2"
+		"pitch" "100"
+		"pitchstart" "100"
+		"preset" "0"
+		"radius" "1024"
+		"spawnflags" "17"
+		"spindown" "0"
+		"spinup" "0"
+		"targetname" "dumpster squeak"
+		"volstart" "10"
+		"origin" "6779 3915 916.282"
+		"mapupdate" "1"
+	}
+}

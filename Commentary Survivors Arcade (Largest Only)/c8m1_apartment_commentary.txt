@@ -1,0 +1,289 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital01_path01"
+		"origin" "1503.8599853516 2675.25 75.7799987793"
+		"angles" "0 78.8679275513 0"
+		"contextsubject" "hospital01_path01"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital01_path02"
+		"origin" "1759.8499755859 3306.0400390625 47.0699996948"
+		"angles" "0 29.1699962616 0"
+		"contextsubject" "hospital01_path02"
+	}
+	"entity"
+	{
+		"classname" "info_remarkable"
+		"targetname" "hospital01_path03"
+		"origin" "2852.4899902344 4193.1000976563 52.4700012207"
+		"angles" "0 -0.2659577727 0"
+		"contextsubject" "hospital01_path03"
+	}
+	
+	// Player blocker entities to block survivors from jumping off the starting roof without dying.
+	"entity"
+	{
+		"id" "2600337"
+		"classname" "env_player_blocker"
+		"BlockType" "0"
+		"initialstate" "1"
+		"maxs" "12 8 260"
+		"mins" "-240  -8 -208"
+		"origin" "2288 1424 224.35"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "2612333"
+		"classname" "env_player_blocker"
+		"BlockType" "1"
+		"initialstate" "1"
+		"maxs" "0 630 0"
+		"mins" "-13 0 -451"
+		"origin" "1536 1416 640"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "2612484"
+		"classname" "env_player_blocker"
+		"BlockType" "0"
+		"initialstate" "1"
+		"maxs" "8 33 536"
+		"mins" "0 -22 -8"
+		"origin" "2488 1375 104"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "2600448"
+		"classname" "env_player_blocker"
+		"BlockType" "1"
+		"initialstate" "1"
+		"maxs" "8 8 800"
+		"mins" "-54 -130 -98"
+		"origin" "2680 1728 256"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "2600529"
+		"classname" "env_player_blocker"
+		"BlockType" "1"
+		"initialstate" "1"
+		"maxs" "130 8 1200"
+		"mins" "-8 -54 -86"
+		"origin" "2131 1784 204"
+		"mapupdate" "1"
+	}
+
+	// Fixes intro view.
+	entity
+	{
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "relay_intro_finished"
+		connections
+		{
+			"OnTrigger" "directorFinishIntro1-1"
+		}
+		"origin" "2001.35 927.834 488"
+		"mapupdate" "1"
+	}
+
+	// Added air conditioner unit and blocks the survivors from jumping on it.
+	entity
+	{
+		"id" "516900"
+		"classname" "prop_dynamic"
+		"angles" "0.0 180.0 0.0"
+		"body" "0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "0"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "2048.0"
+		"fademindist" "1536.0"
+		"fadescale" "1.0"
+		"glowbackfacemult" "1.0"
+		"glowcolor" "0 0 0"
+		"glowrange" "0"
+		"glowrangemin" "0"
+		"glowstate" "0"
+		"LagCompensate" "0"
+		"MaxAnimTime" "10"
+		"maxcpulevel" "0"
+		"maxgpulevel" "0"
+		"MinAnimTime" "5"
+		"mincpulevel" "0"
+		"mingpulevel" "0"
+		"model" "models/props_rooftop/acunit01.mdl"
+		"PerformanceMode" "0"
+		"pressuredelay" "0"
+		"RandomAnimation" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"SetBodyGroup" "0"
+		"skin" "0"
+		"solid" "6"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"updatechildren" "0"
+		"origin" "2526.61 1085.15 161.346"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "2612635"
+		"classname" "env_player_blocker"
+		"BlockType" "1"
+		"initialstate" "1"
+		"maxs" "35 60 328"
+		"mins" "-25 -70 -100"
+		"origin" "2522 1087 312"
+		"mapupdate" "1"
+	}
+
+	// Added alarm clock for Co-op Mode.
+	entity
+	{
+		"id" "21594"
+		"classname" "prop_physics"
+		"angles" "0 229.5 0"
+		"body" "0"
+		"CanObstructNav" "1"
+		"damagetoenablemotion" "0"
+		"Damagetype" "0"
+		"disablereceiveshadows" "0"
+		"disableshadows" "1"
+		"ExplodeDamage" "0"
+		"ExplodeRadius" "0"
+		"fademaxdist" "1250"
+		"fademindist" "1050"
+		"fadescale" "1"
+		"forcetoenablemotion" "0"
+		"inertiaScale" "1.0"
+		"massScale" "0"
+		"minhealthdmg" "0"
+		"model" "models/props_interiors/alarm_clock.mdl"
+		"nodamageforces" "0"
+		"PerformanceMode" "0"
+		"physdamagescale" "0.1"
+		"pressuredelay" "0"
+		"renderamt" "255"
+		"rendercolor" "255 255 255"
+		"renderfx" "0"
+		"rendermode" "0"
+		"shadowcastdist" "0"
+		"skin" "1"
+		"spawnflags" "8449"
+		"targetname" "clock1"
+		connections
+		{
+			"OnAwakened" "clock1,Skin,0,0,-1"
+			"OnAwakened" "clocktimer1,Kill,,0,-1"
+			"OnAwakened" "clocklight1,HideSprite,,0,-1"
+			"OnAwakened" "sound_alarmclock,StopSound,,0.01,-1"
+			"OnAwakened" "sound_alarmclock,Volume,,0,-1"
+			"OnAwakened" "sound_alarmclock,Kill,,0.02,-1"
+		}
+		"origin" "2152.87 1129.63 92.2428"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "21598"
+		"classname" "env_sprite"
+		"disablereceiveshadows" "0"
+		"fademindist" "-1"
+		"fadescale" "1"
+		"framerate" "10.0"
+		"GlowProxySize" "6"
+		"HDRColorScale" "1"
+		"maxdxlevel" "0"
+		"mindxlevel" "0"
+		"model" "sprites/light_glow03.vmt"
+		"renderamt" "150"
+		"rendercolor" "248 64 31"
+		"renderfx" "14"
+		"rendermode" "9"
+		"scale" ".75"
+		"spawnflags" "1"
+		"targetname" "clocklight1"
+		"origin" "2150 1132 95"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "21603"
+		"classname" "logic_timer"
+		"RefireTime" ".5"
+		"spawnflags" "1"
+		"StartDisabled" "1"
+		"targetname" "clocktimer1"
+		"UseRandomTime" "0"
+		connections
+		{
+			"OnTimerHigh" "clocklight1,HideSprite,,0,-1"
+			"OnTimerLow" "clocklight1,ShowSprite,,0,-1"
+			"OnTimerHigh" "clock1,Skin,0,0,-1"
+			"OnTimerLow" "clock1,Skin,1,0,-1"
+			"OnTimerLow" "sound_alarmclock,PlaySound,,0,-1"
+			"OnTimerHigh" "sound_alarmclock,StopSound,,0,-1"
+		}
+		"origin" "2152.87 1129.63 107"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "26312"
+		"classname" "ambient_generic"
+		"cspinup" "0"
+		"fadeinsecs" "0"
+		"fadeoutsecs" "0"
+		"health" "5"
+		"lfomodpitch" "0"
+		"lfomodvol" "0"
+		"lforate" "0"
+		"lfotype" "0"
+		"message" "Objects.AlarmClock_Blink"
+		"pitch" "100"
+		"pitchstart" "100"
+		"preset" "0"
+		"radius" "1250"
+		"spawnflags" "16"
+		"spindown" "0"
+		"spinup" "0"
+		"targetname" "sound_alarmclock"
+		"volstart" "0"
+		"origin" "2153.41 1128.92 95.9169"
+		"mapupdate" "1"
+	}
+	entity
+	{
+		"id" "2612786"
+		"classname" "info_gamemode"
+		"angles" "0 0 0"
+		connections
+		{
+			"OnScavenge" "clock1Kill0-1"
+			"OnScavenge" "clocklight1Kill0-1"
+			"OnScavenge" "clocktimer1Kill0-1"
+			"OnScavenge" "sound_alarmclockKill0-1"
+			"OnVersus" "clock1Kill0-1"
+			"OnVersus" "clocklight1Kill0-1"
+			"OnVersus" "clocktimer1Kill0-1"
+			"OnVersus" "sound_alarmclockKill0-1"
+		}
+		"origin" "1947.57 918.1 441"
+		"mapupdate" "1"
+	}
+}
