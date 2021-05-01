@@ -1,0 +1,3968 @@
+world
+{
+	"id" "1"
+	"skyname" "sky_l4d_c1_1_hdr"
+	"musicpostfix" "Waterfront"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"mapversion" "62"
+	"comment" "Decompiled by BSPSource v1.4.0 from zoo_trafficsigns"
+	"classname" "worldspawn"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "3"
+			"plane" "(-384 -1520 16) (-384 -1520 -0) (-384 1632 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(256 1632 16) (256 1632 -0) (256 -1520 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(256 -1520 16) (256 -1520 -0) (-384 -1520 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-384 1632 16) (-384 1632 -0) (256 1632 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(-384 1632 0) (-384 -1520 0) (256 -1520 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-384 -1520 16) (-384 1632 16) (256 1632 16)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "10"
+			"plane" "(-384 -1536 2064) (-384 -1536 128) (-384 -1520 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(256 -1520 2064) (256 -1520 128) (256 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(256 -1536 2064) (256 -1536 128) (-384 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(-384 -1520 2064) (-384 -1520 128) (256 -1520 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-384 -1520 128) (-384 -1536 128) (256 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-384 -1536 2064) (-384 -1520 2064) (256 -1520 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "16"
+		side
+		{
+			"id" "17"
+			"plane" "(-384 -1520 0) (-384 -1536 0) (256 -1536 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(-384 -1536 128) (-384 -1520 128) (256 -1520 128)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(-384 -1536 128) (-384 -1536 -0) (-384 -1520 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(256 -1520 128) (256 -1520 -0) (256 -1536 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(256 -1536 128) (256 -1536 -0) (-384 -1536 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-384 -1520 128) (-384 -1520 -0) (256 -1520 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "23"
+		side
+		{
+			"id" "24"
+			"plane" "(-384 1632 2064) (-384 1632 128) (-384 1648 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(256 1648 2064) (256 1648 128) (256 1632 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(256 1632 2064) (256 1632 128) (-384 1632 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-384 1648 2064) (-384 1648 128) (256 1648 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-384 1648 128) (-384 1632 128) (256 1632 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-384 1632 2064) (-384 1648 2064) (256 1648 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "30"
+		side
+		{
+			"id" "31"
+			"plane" "(-384 1632 128) (-384 1632 -0) (-384 1648 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(256 1648 128) (256 1648 -0) (256 1632 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(256 1632 128) (256 1632 -0) (-384 1632 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-384 1648 128) (-384 1648 -0) (256 1648 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-384 1648 0) (-384 1632 0) (256 1632 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "36"
+			"plane" "(-384 1632 128) (-384 1648 128) (256 1648 128)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "37"
+		side
+		{
+			"id" "39"
+			"plane" "(272 -1536 2064) (272 -1536 128) (256 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(256 1648 2064) (256 1648 128) (272 1648 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "42"
+			"plane" "(256 1648 128) (256 -1536 128) (272 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(256 -1536 2064) (256 1648 2064) (272 1648 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(256 -1536 2064) (256 -1536 128) (256 1648 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(272 1648 2064) (272 1648 128) (272 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "46"
+		side
+		{
+			"id" "47"
+			"plane" "(256 -1536 128) (256 -1536 -0) (256 1648 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "48"
+			"plane" "(272 1648 128) (272 1648 -0) (272 -1536 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "49"
+			"plane" "(272 -1536 128) (272 -1536 -0) (256 -1536 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(256 1648 128) (256 1648 -0) (272 1648 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(256 1648 0) (256 -1536 0) (272 -1536 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "52"
+			"plane" "(256 -1536 128) (256 1648 128) (272 1648 128)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "53"
+		side
+		{
+			"id" "54"
+			"plane" "(-400 -1536 2064) (-400 -1536 128) (-400 1648 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(-384 1648 2064) (-384 1648 128) (-384 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(-384 -1536 2064) (-384 -1536 128) (-400 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(-400 1648 2064) (-400 1648 128) (-384 1648 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-400 1648 128) (-400 -1536 128) (-384 -1536 128)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(-400 -1536 2064) (-400 1648 2064) (-384 1648 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "60"
+		side
+		{
+			"id" "61"
+			"plane" "(-400 -1536 128) (-400 -1536 -0) (-400 1648 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(-384 1648 128) (-384 1648 -0) (-384 -1536 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(-384 -1536 128) (-384 -1536 -0) (-400 -1536 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(-400 1648 128) (-400 1648 -0) (-384 1648 -0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "65"
+			"plane" "(-400 1648 0) (-400 -1536 0) (-384 -1536 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "66"
+			"plane" "(-400 -1536 128) (-400 1648 128) (-384 1648 128)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "67"
+		side
+		{
+			"id" "68"
+			"plane" "(-400 -1536 2080) (-400 -1536 2064) (-400 1648 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(272 1648 2080) (272 1648 2064) (272 -1536 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(272 -1536 2080) (272 -1536 2064) (-400 -1536 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(-400 1648 2080) (-400 1648 2064) (272 1648 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "72"
+			"plane" "(-400 1648 2064) (-400 -1536 2064) (272 -1536 2064)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(-400 -1536 2080) (-400 1648 2080) (272 1648 2080)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "74"
+		side
+		{
+			"id" "75"
+			"plane" "(-2997 1138 5456) (-2997 -3998 5456) (2203 -3998 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(-2997 -3998 5464) (-2997 1138 5464) (2203 1138 5464)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(-2997 -3998 5464) (-2997 -3998 5456) (-2997 1138 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "78"
+			"plane" "(2203 1138 5464) (2203 1138 5456) (2203 -3998 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(2203 -3998 5464) (2203 -3998 5456) (-2997 -3998 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(-2997 1138 5464) (-2997 1138 5456) (2203 1138 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "81"
+		side
+		{
+			"id" "82"
+			"plane" "(-2997 -3998 1888) (-2997 -3998 1880) (-2997 1138 1880)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(2203 1138 1888) (2203 1138 1880) (2203 -3998 1880)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "84"
+			"plane" "(2203 -3998 1888) (2203 -3998 1880) (-2997 -3998 1880)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(-2997 1138 1888) (-2997 1138 1880) (2203 1138 1880)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "86"
+			"plane" "(-2997 1138 1880) (-2997 -3998 1880) (2203 -3998 1880)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "87"
+			"plane" "(-2997 -3998 1888) (-2997 1138 1888) (2203 1138 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "88"
+		side
+		{
+			"id" "89"
+			"plane" "(-2997 -3998 5456) (-2997 -3998 1888) (-2997 1138 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "90"
+			"plane" "(-2989 1138 5456) (-2989 1138 1888) (-2989 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(-2989 -3998 5456) (-2989 -3998 1888) (-2997 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "92"
+			"plane" "(-2997 1138 5456) (-2997 1138 1888) (-2989 1138 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "93"
+			"plane" "(-2997 1138 1888) (-2997 -3998 1888) (-2989 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "94"
+			"plane" "(-2997 -3998 5456) (-2997 1138 5456) (-2989 1138 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "95"
+		side
+		{
+			"id" "96"
+			"plane" "(2203 -3998 5456) (2203 -3998 1888) (2195 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "97"
+			"plane" "(2195 1138 5456) (2195 1138 1888) (2203 1138 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "98"
+			"plane" "(2195 1138 1888) (2195 -3998 1888) (2203 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "99"
+			"plane" "(2195 -3998 5456) (2195 1138 5456) (2203 1138 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "100"
+			"plane" "(2195 -3998 5456) (2195 -3998 1888) (2195 1138 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "101"
+			"plane" "(2203 1138 5456) (2203 1138 1888) (2203 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "102"
+		side
+		{
+			"id" "103"
+			"plane" "(-2989 1130 5456) (-2989 1130 1888) (-2989 1138 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "104"
+			"plane" "(2195 1138 5456) (2195 1138 1888) (2195 1130 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "105"
+			"plane" "(2195 1130 5456) (2195 1130 1888) (-2989 1130 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "106"
+			"plane" "(-2989 1138 5456) (-2989 1138 1888) (2195 1138 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "107"
+			"plane" "(-2989 1138 1888) (-2989 1130 1888) (2195 1130 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "108"
+			"plane" "(-2989 1130 5456) (-2989 1138 5456) (2195 1138 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "109"
+		side
+		{
+			"id" "110"
+			"plane" "(-2989 -3998 5456) (-2989 -3998 1888) (-2989 -3990 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "111"
+			"plane" "(2195 -3990 5456) (2195 -3990 1888) (2195 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "112"
+			"plane" "(2195 -3998 5456) (2195 -3998 1888) (-2989 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "113"
+			"plane" "(-2989 -3990 5456) (-2989 -3990 1888) (2195 -3990 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "114"
+			"plane" "(-2989 -3990 1888) (-2989 -3998 1888) (2195 -3998 1888)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "115"
+			"plane" "(-2989 -3998 5456) (-2989 -3990 5456) (2195 -3990 5456)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "116"
+		side
+		{
+			"id" "117"
+			"plane" "(-231.5078 109.4158 16.143) (-277.6797 112.6445 16.143) (-258.7227 111.3188 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[0.9976 -0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "118"
+			"plane" "(-273.8477 167.5107 16.143) (-227.6696 164.2817 16.143) (-246.625 165.6069 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[-0.9976 0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "119"
+			"plane" "(-227.6641 164.281 16.143) (-273.8477 167.5103 16.143) (-231.5063 109.415 16.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "120"
+			"plane" "(-250.4609 110.7405 35.143) (-258.7266 111.3184 35.143) (-254.8867 166.1851 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "121"
+			"plane" "(-258.7227 111.3196 35.143) (-273.8438 167.512 16.143) (-254.8901 166.1866 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[0.708 -0 0.7062 0] 0.25"
+			"vaxis" "[-0.0348 -0.9988 0.0349 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "122"
+			"plane" "(-231.5078 109.4148 16.143) (-250.4615 110.7402 35.143) (-246.625 165.6082 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[0.708 0 -0.7062 0] 0.25"
+			"vaxis" "[-0.0348 -0.9988 -0.0349 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "123"
+		side
+		{
+			"id" "124"
+			"plane" "(-224.5547 743.7881 16.143) (-269.9961 734.9551 16.143) (-214.0612 689.8004 16.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "125"
+			"plane" "(-232.7109 686.1719 35.143) (-240.8438 684.5908 35.143) (-251.3359 738.5801 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[1 0 -0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "126"
+			"plane" "(-240.8477 684.5942 35.143) (-269.9883 734.9551 16.143) (-251.3374 738.5804 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[0.7136 -0 0.7005 0] 0.25"
+			"vaxis" "[0.0945 -0.9909 -0.0962 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "127"
+			"plane" "(-214.0625 689.7998 16.143) (-232.7134 686.1744 35.143) (-224.5586 743.7861 16.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[0.7136 0 -0.7005 0] 0.25"
+			"vaxis" "[0.0945 -0.9909 0.0963 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "128"
+			"plane" "(-214.0625 689.7979 16.143) (-259.5 680.9658 16.143) (-240.8438 684.5928 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[0.9816 0.1908 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "129"
+			"plane" "(-269.9883 734.9561 16.143) (-224.5552 743.7874 16.143) (-243.207 740.1621 35.143)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsplayerclip"
+			"uaxis" "[-0.9816 -0.1908 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "38"
+	"origin" "-352 560 592"
+	"pitch" "-70"
+	"angles" "0 284 0"
+	"_lightscaleHDR" "0.7"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 200"
+	"_AmbientScaleHDR" "0.7"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_ambient" "255 255 255 20"
+	"classname" "light_environment"
+}
+entity
+{
+	"id" "40"
+	"origin" "128 -1024 64"
+	"angles" "0 180 0"
+	"classname" "info_player_start"
+}
+entity
+{
+	"id" "332"
+	"origin" "-448 -1408 2304"
+	"use_angles" "1"
+	"scale" "32"
+	"HDRColorScale" "1.0"
+	"fogstart" "128"
+	"fogmaxdensity" "1"
+	"fogend" "2500"
+	"fogenable" "1"
+	"fogdir" "0 1 0"
+	"fogcolor2" "130 117 107"
+	"fogcolor" "130 117 107"
+	"fogblend" "0"
+	"clip_3D_skybox_near_to_world_far_offset" "0.0"
+	"angles" "0 180 0"
+	"classname" "sky_camera"
+}
+entity
+{
+	"id" "395"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto1-trafficmessage_panel_1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-205.527 -1063.65 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "130"
+		side
+		{
+			"id" "131"
+			"plane" "(-204.527 -1109.65 135.286) (-204.527 -1109.65 76.286) (-206.527 -1109.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "132"
+			"plane" "(-206.527 -1017.65 135.286) (-206.527 -1017.65 76.286) (-204.527 -1017.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "133"
+			"plane" "(-204.527 -1017.65 135.286) (-204.527 -1017.65 76.286) (-204.527 -1109.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage04"
+			"uaxis" "[-0 1 0 11] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "134"
+			"plane" "(-206.527 -1109.65 135.286) (-206.527 -1109.65 76.286) (-206.527 -1017.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage04"
+			"uaxis" "[-0 1 0 234] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "135"
+			"plane" "(-206.527 -1109.65 76.286) (-204.527 -1109.65 76.286) (-204.527 -1017.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "136"
+			"plane" "(-204.527 -1109.65 135.286) (-206.527 -1109.65 135.286) (-206.527 -1017.65 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "8"
+	}
+}
+entity
+{
+	"id" "436"
+	"angles" "-0 90 0"
+	"origin" "-195.527 -1028.45 121.43"
+	"targetname" "InstanceAuto1-trafficmessage_panel_timer"
+	"spawnflags" "1"
+	"RefireTime" "1"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimerHigh" "InstanceAuto1-trafficmessage_panel_1Disable0-1"
+		"OnTimerHigh" "InstanceAuto1-trafficmessage_panel_2Enable0-1"
+		"OnTimerLow" "InstanceAuto1-trafficmessage_panel_2Disable0-1"
+		"OnTimerLow" "InstanceAuto1-trafficmessage_panel_1Enable0-1"
+	}
+	editor
+	{
+		"visgroupid" "8"
+	}
+}
+entity
+{
+	"id" "440"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto1-trafficmessage_panel_2"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-205.527 -1063.65 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "137"
+		side
+		{
+			"id" "138"
+			"plane" "(-204.527 -1017.65 135.286) (-204.527 -1017.65 76.286) (-204.527 -1109.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03"
+			"uaxis" "[-0 1 0 11] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "139"
+			"plane" "(-206.527 -1109.65 135.286) (-206.527 -1109.65 76.286) (-206.527 -1017.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage04"
+			"uaxis" "[-0 1 0 234] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "140"
+			"plane" "(-206.527 -1109.65 76.286) (-204.527 -1109.65 76.286) (-204.527 -1017.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "141"
+			"plane" "(-204.527 -1109.65 135.286) (-206.527 -1109.65 135.286) (-206.527 -1017.65 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "142"
+			"plane" "(-204.527 -1109.65 135.286) (-204.527 -1109.65 76.286) (-206.527 -1109.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "143"
+			"plane" "(-206.527 -1017.65 135.286) (-206.527 -1017.65 76.286) (-204.527 -1017.65 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "8"
+	}
+}
+entity
+{
+	"id" "488"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto2-trafficmessage_panel_1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-205.527 -807.653 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "144"
+		side
+		{
+			"id" "145"
+			"plane" "(-204.527 -853.653 135.286) (-204.527 -853.653 76.286) (-206.527 -853.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "146"
+			"plane" "(-206.527 -761.653 135.286) (-206.527 -761.653 76.286) (-204.527 -761.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "147"
+			"plane" "(-204.527 -761.653 135.286) (-204.527 -761.653 76.286) (-204.527 -853.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[-0 1 0 68] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "148"
+			"plane" "(-206.527 -853.653 135.286) (-206.527 -853.653 76.286) (-206.527 -761.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[-0 1 0 234] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "149"
+			"plane" "(-206.527 -853.653 76.286) (-204.527 -853.653 76.286) (-204.527 -761.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "150"
+			"plane" "(-204.527 -853.653 135.286) (-206.527 -853.653 135.286) (-206.527 -761.653 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "9"
+	}
+}
+entity
+{
+	"id" "528"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto2-trafficmessage_panel_2"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-205.527 -807.653 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "151"
+		side
+		{
+			"id" "152"
+			"plane" "(-204.527 -853.653 135.286) (-204.527 -853.653 76.286) (-206.527 -853.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(-206.527 -761.653 135.286) (-206.527 -761.653 76.286) (-204.527 -761.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "154"
+			"plane" "(-204.527 -761.653 135.286) (-204.527 -761.653 76.286) (-204.527 -853.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage01"
+			"uaxis" "[-0 1 0 68] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(-206.527 -853.653 135.286) (-206.527 -853.653 76.286) (-206.527 -761.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[-0 1 0 234] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "156"
+			"plane" "(-206.527 -853.653 76.286) (-204.527 -853.653 76.286) (-204.527 -761.653 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "157"
+			"plane" "(-204.527 -853.653 135.286) (-206.527 -853.653 135.286) (-206.527 -761.653 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "9"
+	}
+}
+entity
+{
+	"id" "616"
+	"angles" "-0 90 0"
+	"origin" "-195.527 -781.875 105.884"
+	"vscripts" "c1_3_trafficmessage_frequency"
+	"targetname" "InstanceAuto2-trafficmessage_script"
+	"Group01" "InstanceAuto2-trafficmessage_panel_2"
+	"Group00" "InstanceAuto2-trafficmessage_panel_1"
+	"classname" "logic_script"
+	editor
+	{
+		"visgroupid" "9"
+	}
+}
+entity
+{
+	"id" "622"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto3-message_brush1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-238.12 -542.874 105.785"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "158"
+		side
+		{
+			"id" "159"
+			"plane" "(-225.2484 -587.0478 135.285) (-225.2484 -587.0478 76.285) (-227.1802 -587.5654 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9659 0.2588 -0 0] 0.25"
+			"vaxis" "[-0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(-250.9916 -498.7003 135.285) (-250.9916 -498.7003 76.285) (-249.0598 -498.1826 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9659 -0.2588 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(-249.0598 -498.1826 135.285) (-249.0598 -498.1826 76.285) (-225.2484 -587.0478 76.285)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03"
+			"uaxis" "[-0.2588 0.9659 0 134] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "162"
+			"plane" "(-227.1802 -587.5654 135.285) (-227.1802 -587.5654 76.285) (-250.9916 -498.7003 76.285)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0.2588 0.9659 0 56] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "163"
+			"plane" "(-227.1802 -587.5654 76.285) (-225.2484 -587.0478 76.285) (-249.0598 -498.1826 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "164"
+			"plane" "(-225.2484 -587.0478 135.285) (-227.1802 -587.5654 135.285) (-250.9916 -498.7003 135.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 -0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "10"
+	}
+}
+entity
+{
+	"id" "627"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto3-message_brush2"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-238.12 -542.874 105.785"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "165"
+		side
+		{
+			"id" "166"
+			"plane" "(-225.2484 -587.0478 135.285) (-225.2484 -587.0478 76.285) (-227.1802 -587.5654 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9659 0.2588 -0 0] 0.25"
+			"vaxis" "[-0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(-250.9916 -498.7003 135.285) (-250.9916 -498.7003 76.285) (-249.0598 -498.1826 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9659 -0.2588 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "168"
+			"plane" "(-249.0598 -498.1826 135.285) (-249.0598 -498.1826 76.285) (-225.2484 -587.0478 76.285)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0.2588 0.9659 0 134] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "169"
+			"plane" "(-227.1802 -587.5654 135.285) (-227.1802 -587.5654 76.285) (-250.9916 -498.7003 76.285)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0.2588 0.9659 0 56] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "170"
+			"plane" "(-227.1802 -587.5654 76.285) (-225.2484 -587.0478 76.285) (-249.0598 -498.1826 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "171"
+			"plane" "(-225.2484 -587.0478 135.285) (-227.1802 -587.5654 135.285) (-250.9916 -498.7003 135.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 -0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "10"
+	}
+}
+entity
+{
+	"id" "632"
+	"angles" "-0 105 0"
+	"origin" "-258.726 -559.78 112.889"
+	"targetname" "InstanceAuto3-default_message_timer"
+	"spawnflags" "0"
+	"RefireTime" "4"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "InstanceAuto3-message_brush1Disable0-1"
+		"OnTimer" "InstanceAuto3-message_brush2Enable0-1"
+		"OnTimer" "InstanceAuto3-message_brush1Enable2-1"
+		"OnTimer" "InstanceAuto3-message_brush2Disable2-1"
+	}
+	editor
+	{
+		"visgroupid" "10"
+	}
+}
+entity
+{
+	"id" "698"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto3-message_brush_static"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-238.12 -542.874 105.785"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "172"
+		side
+		{
+			"id" "173"
+			"plane" "(-227.1802 -587.5654 76.285) (-225.2484 -587.0478 76.285) (-249.0598 -498.1826 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "174"
+			"plane" "(-225.2484 -587.0478 135.285) (-227.1802 -587.5654 135.285) (-250.9916 -498.7003 135.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 -0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "175"
+			"plane" "(-225.2484 -587.0478 135.285) (-225.2484 -587.0478 76.285) (-227.1802 -587.5654 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9659 0.2588 -0 0] 0.25"
+			"vaxis" "[-0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "176"
+			"plane" "(-250.9916 -498.7003 135.285) (-250.9916 -498.7003 76.285) (-249.0598 -498.1826 76.285)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9659 -0.2588 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "177"
+			"plane" "(-249.0598 -498.1826 135.285) (-249.0598 -498.1826 76.285) (-225.2484 -587.0478 76.285)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage07"
+			"uaxis" "[-0.2588 0.9659 0 134] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "178"
+			"plane" "(-227.1802 -587.5654 135.285) (-227.1802 -587.5654 76.285) (-250.9916 -498.7003 76.285)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0.2588 0.9659 0 56] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "10"
+	}
+}
+entity
+{
+	"id" "740"
+	"angles" "-0 105 0"
+	"origin" "-263.501 -541.962 113.625"
+	"targetname" "InstanceAuto3-message_timer"
+	"spawnflags" "0"
+	"RefireTime" "10"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "InstanceAuto3-message_brush_staticEnable0-1"
+		"OnTimer" "InstanceAuto3-message_brush_staticDisable1-1"
+		"OnTimer" "InstanceAuto3-default_message_timerDisable0-1"
+		"OnTimer" "InstanceAuto3-message_brush2Disable0-1"
+		"OnTimer" "InstanceAuto3-message_brush1Disable0-1"
+		"OnTimer" "InstanceAuto3-message_brush1Enable1-1"
+		"OnTimer" "InstanceAuto3-default_message_timerEnable1-1"
+	}
+	editor
+	{
+		"visgroupid" "10"
+	}
+}
+entity
+{
+	"id" "796"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto4-message_brush1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-227.171 -283.756 105.446"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "179"
+		side
+		{
+			"id" "180"
+			"plane" "(-226.171 -329.756 134.946) (-226.171 -329.756 75.946) (-228.171 -329.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "181"
+			"plane" "(-228.171 -237.756 134.946) (-228.171 -237.756 75.946) (-226.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "182"
+			"plane" "(-226.171 -237.756 134.946) (-226.171 -237.756 75.946) (-226.171 -329.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03"
+			"uaxis" "[-0 1 0 148] 0.36"
+			"vaxis" "[-0 0 -1 119] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "183"
+			"plane" "(-228.171 -329.756 134.946) (-228.171 -329.756 75.946) (-228.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0 1 0 211] 0.5"
+			"vaxis" "[-0 0 -1 152] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "184"
+			"plane" "(-228.171 -329.756 75.946) (-226.171 -329.756 75.946) (-226.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "185"
+			"plane" "(-226.171 -329.756 134.946) (-228.171 -329.756 134.946) (-228.171 -237.756 134.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "11"
+	}
+}
+entity
+{
+	"id" "801"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto4-message_brush2"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-227.171 -283.756 105.446"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "186"
+		side
+		{
+			"id" "187"
+			"plane" "(-226.171 -329.756 134.946) (-226.171 -329.756 75.946) (-228.171 -329.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "188"
+			"plane" "(-228.171 -237.756 134.946) (-228.171 -237.756 75.946) (-226.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "189"
+			"plane" "(-226.171 -237.756 134.946) (-226.171 -237.756 75.946) (-226.171 -329.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0 1 0 148] 0.36"
+			"vaxis" "[-0 0 -1 119] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "190"
+			"plane" "(-228.171 -329.756 134.946) (-228.171 -329.756 75.946) (-228.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0 1 0 211] 0.5"
+			"vaxis" "[-0 0 -1 152] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "191"
+			"plane" "(-228.171 -329.756 75.946) (-226.171 -329.756 75.946) (-226.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "192"
+			"plane" "(-226.171 -329.756 134.946) (-228.171 -329.756 134.946) (-228.171 -237.756 134.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "11"
+	}
+}
+entity
+{
+	"id" "806"
+	"angles" "-0 90 0"
+	"origin" "-251.451 -294.753 112.549"
+	"targetname" "InstanceAuto4-default_message_timer"
+	"spawnflags" "0"
+	"RefireTime" "4"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "InstanceAuto4-message_brush1Disable0-1"
+		"OnTimer" "InstanceAuto4-message_brush2Enable0-1"
+		"OnTimer" "InstanceAuto4-message_brush1Enable2-1"
+		"OnTimer" "InstanceAuto4-message_brush2Disable2-1"
+	}
+	editor
+	{
+		"visgroupid" "11"
+	}
+}
+entity
+{
+	"id" "808"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto4-message_brush_static"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-227.171 -283.756 105.446"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "193"
+		side
+		{
+			"id" "194"
+			"plane" "(-226.171 -237.756 134.946) (-226.171 -237.756 75.946) (-226.171 -329.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage07"
+			"uaxis" "[-0 1 0 149] 0.36"
+			"vaxis" "[-0 0 -1 119] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "195"
+			"plane" "(-228.171 -329.756 134.946) (-228.171 -329.756 75.946) (-228.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage03b"
+			"uaxis" "[-0 1 0 211] 0.5"
+			"vaxis" "[-0 0 -1 152] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "196"
+			"plane" "(-228.171 -329.756 75.946) (-226.171 -329.756 75.946) (-226.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "197"
+			"plane" "(-226.171 -329.756 134.946) (-228.171 -329.756 134.946) (-228.171 -237.756 134.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "198"
+			"plane" "(-226.171 -329.756 134.946) (-226.171 -329.756 75.946) (-228.171 -329.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(-228.171 -237.756 134.946) (-228.171 -237.756 75.946) (-226.171 -237.756 75.946)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "11"
+	}
+}
+entity
+{
+	"id" "813"
+	"angles" "-0 90 0"
+	"origin" "-251.451 -276.306 113.286"
+	"targetname" "InstanceAuto4-message_timer"
+	"spawnflags" "0"
+	"RefireTime" "10"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "InstanceAuto4-message_brush_staticEnable0-1"
+		"OnTimer" "InstanceAuto4-message_brush_staticDisable1-1"
+		"OnTimer" "InstanceAuto4-message_brush1Disable0-1"
+		"OnTimer" "InstanceAuto4-message_brush2Disable0-1"
+		"OnTimer" "InstanceAuto4-default_message_timerDisable0-1"
+		"OnTimer" "InstanceAuto4-message_brush1Enable1-1"
+		"OnTimer" "InstanceAuto4-default_message_timerEnable1-1"
+	}
+	editor
+	{
+		"visgroupid" "11"
+	}
+}
+entity
+{
+	"id" "861"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto5-trafficmessage_brush_1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "1"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-249.709 37.5162 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "200"
+		side
+		{
+			"id" "201"
+			"plane" "(-251.9202 -8.4415 135.286) (-251.9202 -8.4415 76.286) (-253.9154 -8.302 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9976 -0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(-247.4978 83.4739 135.286) (-247.4978 83.4739 76.286) (-245.5026 83.3344 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9976 0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(-245.5026 83.3344 135.286) (-245.5026 83.3344 76.286) (-251.9202 -8.4415 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage02"
+			"uaxis" "[0.0698 0.9976 0 73] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "204"
+			"plane" "(-253.9154 -8.302 135.286) (-253.9154 -8.302 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage02"
+			"uaxis" "[0.0698 0.9976 0 115] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "205"
+			"plane" "(-253.9154 -8.302 76.286) (-245.5026 83.3344 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "206"
+			"plane" "(-251.9202 -8.4415 135.286) (-253.9154 -8.302 135.286) (-247.4978 83.4739 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "12"
+	}
+}
+entity
+{
+	"id" "879"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto5-trafficmessage_brush_2"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "1"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-249.709 37.5162 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "207"
+		side
+		{
+			"id" "208"
+			"plane" "(-251.9202 -8.4415 135.286) (-251.9202 -8.4415 76.286) (-253.9154 -8.302 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9976 -0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "209"
+			"plane" "(-247.4978 83.4739 135.286) (-247.4978 83.4739 76.286) (-245.5026 83.3344 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9976 0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "210"
+			"plane" "(-245.5026 83.3344 135.286) (-245.5026 83.3344 76.286) (-251.9202 -8.4415 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage00"
+			"uaxis" "[0.0698 0.9976 0 73] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "211"
+			"plane" "(-253.9154 -8.302 135.286) (-253.9154 -8.302 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage02"
+			"uaxis" "[0.0698 0.9976 0 115] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "212"
+			"plane" "(-253.9154 -8.302 76.286) (-245.5026 83.3344 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "213"
+			"plane" "(-251.9202 -8.4415 135.286) (-253.9154 -8.302 135.286) (-247.4978 83.4739 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "12"
+	}
+}
+entity
+{
+	"id" "915"
+	"angles" "-0 86 0"
+	"origin" "-241.903 5.78537 103.182"
+	"targetname" "InstanceAuto5-trafficmessage_timer_1"
+	"spawnflags" "0"
+	"RefireTime" "11"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_1Enable0-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_2Disable0-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_2Enable1-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_1Disable1-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_2Disable2-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_1Enable2-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_1Disable3-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_2Enable3-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_1Disable4-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_2Disable4-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_3Disable5-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_4Disable6-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_3Enable6-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_4Enable7-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_3Disable7-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_4Disable8-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_3Enable8-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_3Disable9-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_4Enable9-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_3Disable10-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_2Enable10-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_4Enable5-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_3Enable4-1"
+		"OnTimer" "InstanceAuto5-trafficmessage_brush_4Disable10-1"
+	}
+	editor
+	{
+		"visgroupid" "12"
+	}
+}
+entity
+{
+	"id" "953"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto5-trafficmessage_brush_3"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "1"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-249.709 37.5162 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "214"
+		side
+		{
+			"id" "215"
+			"plane" "(-251.9202 -8.4415 135.286) (-251.9202 -8.4415 76.286) (-253.9154 -8.302 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9976 -0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "216"
+			"plane" "(-247.4978 83.4739 135.286) (-247.4978 83.4739 76.286) (-245.5026 83.3344 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9976 0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "217"
+			"plane" "(-245.5026 83.3344 135.286) (-245.5026 83.3344 76.286) (-251.9202 -8.4415 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage02_2"
+			"uaxis" "[0.0698 0.9976 0 73] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "218"
+			"plane" "(-253.9154 -8.302 135.286) (-253.9154 -8.302 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage02"
+			"uaxis" "[0.0698 0.9976 0 115] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "219"
+			"plane" "(-253.9154 -8.302 76.286) (-245.5026 83.3344 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "220"
+			"plane" "(-251.9202 -8.4415 135.286) (-253.9154 -8.302 135.286) (-247.4978 83.4739 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "12"
+	}
+}
+entity
+{
+	"id" "968"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto5-trafficmessage_brush_4"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "1"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-249.709 37.5162 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "221"
+		side
+		{
+			"id" "222"
+			"plane" "(-251.9202 -8.4415 135.286) (-251.9202 -8.4415 76.286) (-253.9154 -8.302 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9976 -0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "223"
+			"plane" "(-247.4978 83.4739 135.286) (-247.4978 83.4739 76.286) (-245.5026 83.3344 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9976 0.0698 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "224"
+			"plane" "(-245.5026 83.3344 135.286) (-245.5026 83.3344 76.286) (-251.9202 -8.4415 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage02_3"
+			"uaxis" "[0.0698 0.9976 0 73] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "225"
+			"plane" "(-253.9154 -8.302 135.286) (-253.9154 -8.302 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage02"
+			"uaxis" "[0.0698 0.9976 0 115] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "226"
+			"plane" "(-253.9154 -8.302 76.286) (-245.5026 83.3344 76.286) (-247.4978 83.4739 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "227"
+			"plane" "(-251.9202 -8.4415 135.286) (-253.9154 -8.302 135.286) (-247.4978 83.4739 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "12"
+	}
+}
+entity
+{
+	"id" "1016"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto6-trafficmessage_panel_1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-213.033 615.632 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "228"
+		side
+		{
+			"id" "229"
+			"plane" "(-205.2374 570.2864 76.286) (-203.2742 570.668 76.286) (-220.8286 660.9777 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "230"
+			"plane" "(-203.2742 570.668 135.286) (-222.7918 660.5961 135.286) (-220.8286 660.9777 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "231"
+			"plane" "(-203.2742 570.668 135.286) (-203.2742 570.668 76.286) (-205.2374 570.2864 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9816 0.1908 -0 0] 0.25"
+			"vaxis" "[-0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "232"
+			"plane" "(-222.7918 660.5961 135.286) (-222.7918 660.5961 76.286) (-220.8286 660.9777 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9816 -0.1908 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "233"
+			"plane" "(-220.8286 660.9777 135.286) (-220.8286 660.9777 76.286) (-203.2742 570.668 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage00b"
+			"uaxis" "[-0.1908 0.9816 0 -127] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "234"
+			"plane" "(-205.2374 570.2864 135.286) (-205.2374 570.2864 76.286) (-222.7918 660.5961 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[-0.1908 0.9816 0 -111] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "13"
+	}
+}
+entity
+{
+	"id" "1056"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto6-trafficmessage_zombie_panel"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-212.052 615.823 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "235"
+		side
+		{
+			"id" "236"
+			"plane" "(-202.2932 570.8589 135.286) (-202.2932 570.8589 76.286) (-204.2564 570.4774 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9816 0.1908 -0 0] 0.25"
+			"vaxis" "[-0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "237"
+			"plane" "(-221.8108 660.787 135.286) (-221.8108 660.787 76.286) (-219.8476 661.1686 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9816 -0.1908 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "238"
+			"plane" "(-219.8476 661.1686 135.286) (-219.8476 661.1686 76.286) (-202.2932 570.8589 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage01"
+			"uaxis" "[-0.1908 0.9816 0 -127] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "239"
+			"plane" "(-204.2564 570.4774 135.286) (-204.2564 570.4774 76.286) (-221.8108 660.787 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[-0.1908 0.9816 0 -111] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "240"
+			"plane" "(-204.2564 570.4774 76.286) (-202.2932 570.8589 76.286) (-219.8476 661.1686 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "241"
+			"plane" "(-202.2932 570.8589 135.286) (-221.8108 660.787 135.286) (-219.8476 661.1686 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "13"
+	}
+}
+entity
+{
+	"id" "1144"
+	"angles" "-0 101 0"
+	"origin" "-208.136 642.844 105.884"
+	"vscripts" "c4_4_trafficmessage_frequency"
+	"targetname" "InstanceAuto6-trafficmessage_script"
+	"Group04" "InstanceAuto6-trafficmessage_zombie_panel"
+	"Group03" "InstanceAuto6-trafficmessage_panel_3"
+	"Group02" "InstanceAuto6-trafficmessage_panel_2"
+	"Group01" "InstanceAuto6-trafficmessage_panel_1"
+	"Group00" "InstanceAuto6-trafficmessage_timer"
+	"classname" "logic_script"
+	editor
+	{
+		"visgroupid" "13"
+	}
+}
+entity
+{
+	"id" "1172"
+	"angles" "-0 101 0"
+	"origin" "-199.529 593.326 100.265"
+	"targetname" "InstanceAuto6-trafficmessage_timer"
+	"spawnflags" "0"
+	"RefireTime" "4"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_1Enable0-1"
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_2Disable0-1"
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_2Enable1-1"
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_1Disable1-1"
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_2Disable2-1"
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_3Enable2-1"
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_3Disable3-1"
+		"OnTimer" "InstanceAuto6-trafficmessage_panel_2Enable3-1"
+	}
+	editor
+	{
+		"visgroupid" "13"
+	}
+}
+entity
+{
+	"id" "1226"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto6-trafficmessage_panel_2"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-213.033 615.632 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "242"
+		side
+		{
+			"id" "243"
+			"plane" "(-203.2742 570.668 135.286) (-203.2742 570.668 76.286) (-205.2374 570.2864 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9816 0.1908 -0 0] 0.25"
+			"vaxis" "[-0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "244"
+			"plane" "(-222.7918 660.5961 135.286) (-222.7918 660.5961 76.286) (-220.8286 660.9777 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9816 -0.1908 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "245"
+			"plane" "(-220.8286 660.9777 135.286) (-220.8286 660.9777 76.286) (-203.2742 570.668 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage00"
+			"uaxis" "[-0.1908 0.9816 0 -127] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "246"
+			"plane" "(-205.2374 570.2864 135.286) (-205.2374 570.2864 76.286) (-222.7918 660.5961 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[-0.1908 0.9816 0 -111] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "247"
+			"plane" "(-205.2374 570.2864 76.286) (-203.2742 570.668 76.286) (-220.8286 660.9777 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "248"
+			"plane" "(-203.2742 570.668 135.286) (-222.7918 660.5961 135.286) (-220.8286 660.9777 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "13"
+	}
+}
+entity
+{
+	"id" "1257"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto6-trafficmessage_panel_3"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-213.033 615.632 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "249"
+		side
+		{
+			"id" "250"
+			"plane" "(-220.8286 660.9777 135.286) (-220.8286 660.9777 76.286) (-203.2742 570.668 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage07"
+			"uaxis" "[-0.1908 0.9816 0 -127] 0.36"
+			"vaxis" "[-0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "251"
+			"plane" "(-205.2374 570.2864 135.286) (-205.2374 570.2864 76.286) (-222.7918 660.5961 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[-0.1908 0.9816 0 -111] 0.5"
+			"vaxis" "[-0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "252"
+			"plane" "(-205.2374 570.2864 76.286) (-203.2742 570.668 76.286) (-220.8286 660.9777 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "253"
+			"plane" "(-203.2742 570.668 135.286) (-222.7918 660.5961 135.286) (-220.8286 660.9777 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "254"
+			"plane" "(-203.2742 570.668 135.286) (-203.2742 570.668 76.286) (-205.2374 570.2864 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.9816 0.1908 -0 0] 0.25"
+			"vaxis" "[-0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "255"
+			"plane" "(-222.7918 660.5961 135.286) (-222.7918 660.5961 76.286) (-220.8286 660.9777 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.9816 -0.1908 0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "13"
+	}
+}
+entity
+{
+	"id" "1996"
+	"angles" "-0 -165 0"
+	"origin" "-119.666 1396.52 1148.86"
+	"targetname" "InstanceAuto7-gas_sign_timer"
+	"spawnflags" "1"
+	"RefireTime" "2"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimerHigh" "InstanceAuto7-gas_sign_letter_aEnable0-1"
+		"OnTimerLow" "InstanceAuto7-gas_sign_letter_aDisable0-1"
+	}
+	editor
+	{
+		"visgroupid" "14"
+	}
+}
+entity
+{
+	"id" "2014"
+	"origin" "-128 1408 1169"
+	"updatechildren" "0"
+	"targetname" "InstanceAuto7-gas_sign_letter_a"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/props_signs/sign_truckstop_01_lettera.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"LagCompensate" "0"
+	"glowstate" "0"
+	"glowrange" "0"
+	"glowcolor" "0 0 0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disablereceiveshadows" "0"
+	"body" "0"
+	"angles" "-0 -165 0"
+	"classname" "prop_dynamic"
+	editor
+	{
+		"visgroupid" "14"
+	}
+}
+entity
+{
+	"id" "2062"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto8-trafficmessage_panel_1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-266.722 862.221 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "256"
+		side
+		{
+			"id" "257"
+			"plane" "(-291.6158 823.5261 135.286) (-291.6158 823.5261 76.286) (-293.2739 824.6445 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.829 -0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "258"
+			"plane" "(-241.8282 900.916 135.286) (-241.8282 900.916 76.286) (-240.1701 899.7975 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.829 0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "259"
+			"plane" "(-240.1701 899.7975 135.286) (-240.1701 899.7975 76.286) (-291.6158 823.5261 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage00b"
+			"uaxis" "[0.5592 0.829 0 -163] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "260"
+			"plane" "(-293.2739 824.6445 135.286) (-293.2739 824.6445 76.286) (-241.8282 900.916 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[0.5592 0.829 0 -208] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "261"
+			"plane" "(-293.2739 824.6445 76.286) (-291.6158 823.5261 76.286) (-240.1701 899.7975 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 -0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "262"
+			"plane" "(-291.6158 823.5261 135.286) (-241.8282 900.916 135.286) (-240.1701 899.7975 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "15"
+	}
+}
+entity
+{
+	"id" "2102"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto8-trafficmessage_zombie_panel"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-265.893 861.662 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "263"
+		side
+		{
+			"id" "264"
+			"plane" "(-290.7868 822.967 135.286) (-290.7868 822.967 76.286) (-292.4449 824.0854 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.829 -0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "265"
+			"plane" "(-240.9992 900.3569 135.286) (-240.9992 900.3569 76.286) (-239.3411 899.2385 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.829 0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "266"
+			"plane" "(-239.3411 899.2385 135.286) (-239.3411 899.2385 76.286) (-290.7868 822.967 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage01"
+			"uaxis" "[0.5592 0.829 0 -163] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "267"
+			"plane" "(-292.4449 824.0854 135.286) (-292.4449 824.0854 76.286) (-240.9992 900.3569 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[0.5592 0.829 0 -208] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "268"
+			"plane" "(-292.4449 824.0854 76.286) (-290.7868 822.967 76.286) (-239.3411 899.2385 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 -0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "269"
+			"plane" "(-290.7868 822.967 135.286) (-240.9992 900.3569 135.286) (-239.3411 899.2385 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "15"
+	}
+}
+entity
+{
+	"id" "2190"
+	"angles" "-0 56 0"
+	"origin" "-244.017 878 105.884"
+	"vscripts" "c4_3_trafficmessage_frequency"
+	"targetname" "InstanceAuto8-trafficmessage_script"
+	"Group04" "InstanceAuto8-trafficmessage_zombie_panel"
+	"Group03" "InstanceAuto8-trafficmessage_panel_3"
+	"Group02" "InstanceAuto8-trafficmessage_panel_2"
+	"Group01" "InstanceAuto8-trafficmessage_panel_1"
+	"Group00" "InstanceAuto8-trafficmessage_timer"
+	"classname" "logic_script"
+	editor
+	{
+		"visgroupid" "15"
+	}
+}
+entity
+{
+	"id" "2218"
+	"angles" "-0 56 0"
+	"origin" "-272.946 836.9 100.265"
+	"UseRandomTime" "0"
+	"targetname" "InstanceAuto8-trafficmessage_timer"
+	"spawnflags" "0"
+	"RefireTime" "2"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_1Enable0-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_2Disable0-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_2Enable0.5-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_1Disable0.5-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_2Disable1-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_3Enable1-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_3Disable1.5-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_panel_2Enable1.5-1"
+		"OnTimer" "InstanceAuto8-trafficmessage_sparkStartSpark01"
+		"OnTimerHigh" "InstanceAuto8-trafficmessage_huge_sparkSparkOnce0-1"
+	}
+	editor
+	{
+		"visgroupid" "15"
+	}
+}
+entity
+{
+	"id" "2272"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto8-trafficmessage_panel_2"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-266.722 862.221 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "270"
+		side
+		{
+			"id" "271"
+			"plane" "(-291.6158 823.5261 135.286) (-291.6158 823.5261 76.286) (-293.2739 824.6445 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.829 -0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "272"
+			"plane" "(-241.8282 900.916 135.286) (-241.8282 900.916 76.286) (-240.1701 899.7975 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.829 0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "273"
+			"plane" "(-240.1701 899.7975 135.286) (-240.1701 899.7975 76.286) (-291.6158 823.5261 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage00"
+			"uaxis" "[0.5592 0.829 0 -163] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "274"
+			"plane" "(-293.2739 824.6445 135.286) (-293.2739 824.6445 76.286) (-241.8282 900.916 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[0.5592 0.829 0 -208] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "275"
+			"plane" "(-293.2739 824.6445 76.286) (-291.6158 823.5261 76.286) (-240.1701 899.7975 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 -0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "276"
+			"plane" "(-291.6158 823.5261 135.286) (-241.8282 900.916 135.286) (-240.1701 899.7975 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "15"
+	}
+}
+entity
+{
+	"id" "2303"
+	"vrad_brush_cast_shadows" "0"
+	"targetname" "InstanceAuto8-trafficmessage_panel_3"
+	"StartDisabled" "1"
+	"spawnflags" "2"
+	"Solidity" "2"
+	"solidbsp" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-266.722 862.221 105.786"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"invert_exclusion" "0"
+	"InputFilter" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_brush"
+	solid
+	{
+		"id" "277"
+		side
+		{
+			"id" "278"
+			"plane" "(-291.6158 823.5261 135.286) (-291.6158 823.5261 76.286) (-293.2739 824.6445 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[0.829 -0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "279"
+			"plane" "(-241.8282 900.916 135.286) (-241.8282 900.916 76.286) (-240.1701 899.7975 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-0.829 0.5592 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "280"
+			"plane" "(-240.1701 899.7975 135.286) (-240.1701 899.7975 76.286) (-291.6158 823.5261 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage07"
+			"uaxis" "[0.5592 0.829 0 -163] 0.36"
+			"vaxis" "[0 0 -1 120] 0.36"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "281"
+			"plane" "(-293.2739 824.6445 135.286) (-293.2739 824.6445 76.286) (-241.8282 900.916 76.286)"
+			"smoothing_groups" "0"
+			"material" "signs/sign_trafficmessage06"
+			"uaxis" "[0.5592 0.829 0 -208] 0.5"
+			"vaxis" "[0 0 -1 153] 0.5"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "282"
+			"plane" "(-293.2739 824.6445 76.286) (-291.6158 823.5261 76.286) (-240.1701 899.7975 76.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[-1 0 -0 0] 0.25"
+			"vaxis" "[-0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "283"
+			"plane" "(-291.6158 823.5261 135.286) (-241.8282 900.916 135.286) (-240.1701 899.7975 135.286)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsnodraw"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	editor
+	{
+		"visgroupid" "15"
+	}
+}
+entity
+{
+	"id" "2322"
+	"origin" "-292.715 825.473 128.98"
+	"TrailLength" "2"
+	"targetname" "InstanceAuto8-trafficmessage_spark"
+	"spawnflags" "0"
+	"MaxDelay" "6"
+	"Magnitude" "2"
+	"angles" "-0 56 0"
+	"classname" "env_spark"
+	editor
+	{
+		"visgroupid" "15"
+	}
+}
+entity
+{
+	"id" "2324"
+	"angles" "-0 30 0"
+	"origin" "-460 -1506 2324"
+	"targetname" "InstanceAuto9-skybox_gas_sign_timer"
+	"spawnflags" "1"
+	"RefireTime" "2"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimerHigh" "InstanceAuto9-skybox_gas_sign_letter_aEnable0-1"
+		"OnTimerLow" "InstanceAuto9-skybox_gas_sign_letter_aDisable0-1"
+	}
+	editor
+	{
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "2330"
+	"origin" "-460.366 -1505.59 2336"
+	"updatechildren" "0"
+	"targetname" "InstanceAuto9-skybox_gas_sign_letter_a"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/props_skybox/sign_truckstop_01_lettera_skybox.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"LagCompensate" "0"
+	"glowstate" "0"
+	"glowrange" "0"
+	"glowcolor" "0 0 0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disablereceiveshadows" "0"
+	"body" "0"
+	"angles" "-0 30 0"
+	"classname" "prop_dynamic"
+	editor
+	{
+		"visgroupid" "16"
+	}
+}
+entity
+{
+	"id" "284"
+	"classname" "prop_static"
+	"origin" "-215.527 -1063.65 17.5776"
+	"angles" "-0 -180 0"
+	"skin" "0"
+	"fademindist" "1600"
+	"fademaxdist" "1800"
+	"solid" "6"
+	"model" "models/props_fairgrounds/trailermessageboard.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "285"
+	"classname" "prop_static"
+	"origin" "-215.527 -807.653 17.5776"
+	"angles" "-0 -180 0"
+	"skin" "0"
+	"fademindist" "1600"
+	"fademaxdist" "1800"
+	"solid" "6"
+	"model" "models/props_fairgrounds/trailermessageboard.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "286"
+	"classname" "prop_static"
+	"origin" "-247.778 -545.459 17.5777"
+	"angles" "-0 -165 0"
+	"skin" "0"
+	"fademindist" "2200"
+	"fademaxdist" "2400"
+	"solid" "6"
+	"model" "models/props_fairgrounds/trailermessageboard.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "287"
+	"classname" "prop_static"
+	"origin" "-237.169 -283.753 17.2385"
+	"angles" "-0 -180 0"
+	"skin" "0"
+	"fademindist" "2200"
+	"fademaxdist" "2400"
+	"solid" "6"
+	"model" "models/props_fairgrounds/trailermessageboard.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "288"
+	"classname" "prop_static"
+	"origin" "-259.685 38.2137 17.5777"
+	"angles" "-0 176 0"
+	"skin" "0"
+	"fademindist" "1600"
+	"fademaxdist" "1800"
+	"solid" "6"
+	"model" "models/props_fairgrounds/trailermessageboard.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "289"
+	"classname" "prop_static"
+	"origin" "-222.85 613.724 17.5777"
+	"angles" "-0 -169 0"
+	"skin" "0"
+	"fademindist" "1600"
+	"fademaxdist" "1800"
+	"solid" "6"
+	"model" "models/props_fairgrounds/trailermessageboard.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "290"
+	"classname" "prop_static"
+	"origin" "-128 1408 17"
+	"angles" "-0 -165 0"
+	"skin" "0"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"solid" "6"
+	"model" "models/props_signs/sign_truckstop_01.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "0"
+	"disableselfshadowing" "1"
+	"disablevertexlighting" "1"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "291"
+	"classname" "prop_static"
+	"origin" "-275.013 867.813 17.5777"
+	"angles" "-0 146 0"
+	"skin" "0"
+	"fademindist" "1600"
+	"fademaxdist" "1800"
+	"solid" "6"
+	"model" "models/props_fairgrounds/trailermessageboard.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+entity
+{
+	"id" "292"
+	"classname" "prop_static"
+	"origin" "-460.366 -1505.59 2300"
+	"angles" "-0 30 0"
+	"skin" "0"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"solid" "6"
+	"model" "models/props_skybox/sign_truckstop_01_skybox.mdl"
+	"screenspacefade" "0"
+	"disableshadows" "0"
+	"fadescale" "1"
+	"disableselfshadowing" "1"
+	"disablevertexlighting" "1"
+	"maxcpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"mingpulevel" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"disableX360" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "Instances"
+		"visgroupid" "7"
+		"color" "112 130 111"
+		visgroup
+		{
+			"name" "InstanceAuto1"
+			"visgroupid" "8"
+			"color" "165 132 134"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto2"
+			"visgroupid" "9"
+			"color" "210 172 184"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto3"
+			"visgroupid" "10"
+			"color" "32 141 32"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto4"
+			"visgroupid" "11"
+			"color" "139 18 107"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto5"
+			"visgroupid" "12"
+			"color" "145 121 109"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto6"
+			"visgroupid" "13"
+			"color" "209 25 205"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto7"
+			"visgroupid" "14"
+			"color" "200 123 158"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto8"
+			"visgroupid" "15"
+			"color" "173 225 200"
+		}
+		visgroup
+		{
+			"name" "InstanceAuto9"
+			"visgroupid" "16"
+			"color" "104 228 150"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[188.7157 -1024 148.2386]"
+		"look" "[-64 -1024 64]"
+	}
+}

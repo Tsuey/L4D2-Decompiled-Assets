@@ -1,0 +1,1762 @@
+world
+{
+	"id" "1"
+	"skyname" "urbannightstormhdr"
+	"musicpostfix" "Waterfront"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"mapversion" "141"
+	"comment" "Decompiled by BSPSource v1.4.0 from test_scavenge"
+	"classname" "worldspawn"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "3"
+			"plane" "(-1024 0 0) (-1024 0 -64) (-1024 1024 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/reflectivity_50"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(0 1024 0) (0 1024 -64) (0 0 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/reflectivity_50"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(0 0 0) (0 0 -64) (-1024 0 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/reflectivity_50"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-1024 1024 0) (-1024 1024 -64) (0 1024 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/reflectivity_50"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(-1024 1024 -64) (-1024 -0 -64) (0 -0 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/reflectivity_50"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-1024 -0 0) (-1024 1024 0) (0 1024 0)"
+			"smoothing_groups" "0"
+			"material" "dev/reflectivity_50"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "10"
+			"plane" "(-700 426 184.125) (-700 426 -0.875) (-700 720 -0.875)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(-688 720 184.125) (-688 720 -0.875) (-688 426 -0.875)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(-688 426 184.125) (-688 426 -0.875) (-700 426 -0.875)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(-700 720 184.125) (-700 720 -0.875) (-688 720 -0.875)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-700 720 -0.875) (-700 426 -0.875) (-688 426 -0.875)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-700 426 184.125) (-700 720 184.125) (-688 720 184.125)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "16"
+		side
+		{
+			"id" "17"
+			"plane" "(-688 438 0) (-688 426 0) (-394 426 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[0 1 0 104] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(-688 426 185) (-688 438 185) (-394 438 185)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[0 1 0 104] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(-688 426 185) (-688 426 0) (-688 438 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[0 1 0 104] 0.25"
+			"vaxis" "[0 0 -1 3] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-394 438 185) (-394 438 0) (-394 426 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[0 1 0 104] 0.25"
+			"vaxis" "[0 0 -1 3] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-394 426 185) (-394 426 0) (-688 426 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 3] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-688 438 185) (-688 438 0) (-394 438 0)"
+			"smoothing_groups" "0"
+			"material" "dev/dev_blendmeasure"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 3] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "23"
+		side
+		{
+			"id" "24"
+			"plane" "(-1040 -16 528) (-1040 -16 512) (-1040 1040 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(16 1040 528) (16 1040 512) (16 -16 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(16 -16 528) (16 -16 512) (-1040 -16 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-1040 1040 528) (-1040 1040 512) (16 1040 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-1040 1040 512) (-1040 -16 512) (16 -16 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-1040 -16 528) (-1040 1040 528) (16 1040 528)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "30"
+		side
+		{
+			"id" "31"
+			"plane" "(-1040 -16 -64) (-1040 -16 -80) (-1040 1040 -80)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(16 1040 -64) (16 1040 -80) (16 -16 -80)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(16 -16 -64) (16 -16 -80) (-1040 -16 -80)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-1040 1040 -64) (-1040 1040 -80) (16 1040 -80)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-1040 1040 -80) (-1040 -16 -80) (16 -16 -80)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "36"
+			"plane" "(-1040 -16 -64) (-1040 1040 -64) (16 1040 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "37"
+		side
+		{
+			"id" "38"
+			"plane" "(-1024 -16 512) (-1024 -16 -64) (-1040 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-1040 1040 512) (-1040 1040 -64) (-1024 1040 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-1040 1040 -64) (-1040 -16 -64) (-1024 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "42"
+			"plane" "(-1040 -16 512) (-1040 1040 512) (-1024 1040 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(-1040 -16 512) (-1040 -16 -64) (-1040 1040 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-1024 1040 512) (-1024 1040 -64) (-1024 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "45"
+		side
+		{
+			"id" "46"
+			"plane" "(0 -16 512) (0 -16 -64) (0 1040 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(16 1040 512) (16 1040 -64) (16 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "48"
+			"plane" "(16 -16 512) (16 -16 -64) (0 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "49"
+			"plane" "(0 1040 512) (0 1040 -64) (16 1040 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(0 1040 -64) (0 -16 -64) (16 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(0 -16 512) (0 1040 512) (16 1040 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "52"
+		side
+		{
+			"id" "53"
+			"plane" "(-1024 1024 512) (-1024 1024 -64) (-1024 1040 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "54"
+			"plane" "(0 1040 512) (0 1040 -64) (0 1024 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(0 1024 512) (0 1024 -64) (-1024 1024 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(-1024 1040 512) (-1024 1040 -64) (0 1040 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(-1024 1040 -64) (-1024 1024 -64) (0 1024 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-1024 1024 512) (-1024 1040 512) (0 1040 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "59"
+		side
+		{
+			"id" "60"
+			"plane" "(-1024 -16 512) (-1024 -16 -64) (-1024 0 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(0 0 512) (0 0 -64) (0 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[0 1 -0 0] 0.25"
+			"vaxis" "[0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(0 -16 512) (0 -16 -64) (-1024 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(-1024 0 512) (-1024 0 -64) (0 0 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[-0 -0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(-1024 -0 -64) (-1024 -16 -64) (0 -16 -64)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "65"
+			"plane" "(-1024 -16 512) (-1024 -0 512) (0 -0 512)"
+			"smoothing_groups" "0"
+			"material" "tools/toolsskybox"
+			"uaxis" "[1 -0 0 0] 0.25"
+			"vaxis" "[0 -1 -0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "39"
+	"origin" "-768 128 9"
+	"spawnflags" "0"
+	"angles" "0 90 0"
+	"classname" "info_player_start"
+}
+entity
+{
+	"id" "137"
+	"origin" "-638.183 238.484 72"
+	"SunSpreadAngle" "0"
+	"pitch" "-30"
+	"angles" "0 115 0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "131 197 216 200"
+	"_AmbientScaleHDR" "1"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_ambient" "56 87 109 4"
+	"classname" "light_environment"
+}
+entity
+{
+	"id" "161"
+	"origin" "-306.457 696.564 13"
+	"targetname" "gascan01"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "0"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 39 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "216"
+	"origin" "-262 642 10.7193"
+	"targetname" "gascan02"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "245"
+	"origin" "-522.055 361.75 8"
+	"targetname" "info_gamemode"
+	"angles" "0 0 0"
+	"classname" "info_gamemode"
+	connections
+	{
+		"OnScavengePostIO" "gascan_spawnerForceSpawn0-1"
+		"OnCoop" "gascan_spawnerForceSpawn0-1"
+		"OnScavengePostIO" "template_scavenge_generatorForceSpawn0-1"
+		"OnScavengeMatchStart" "//relay_intro_startTrigger0-1"
+	}
+}
+entity
+{
+	"id" "249"
+	"origin" "-545.345 361.15 8"
+	"Template02" "gascan02"
+	"Template01" "gascan01"
+	"targetname" "gascan_spawner"
+	"spawnflags" "2"
+	"classname" "point_template"
+}
+entity
+{
+	"id" "307"
+	"origin" "-334 430 13"
+	"spawnflags" "256"
+	"skin" "0"
+	"shadowcastdist" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"pressuredelay" "0"
+	"physdamagescale" "0.1"
+	"PerformanceMode" "0"
+	"nodamageforces" "0"
+	"model" "models/props_junk/propanecanister001a.mdl"
+	"minhealthdmg" "0"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"massScale" "0"
+	"inertiaScale" "1.0"
+	"glowstate" "0"
+	"glowrange" "0"
+	"glowcolor" "0 0 0"
+	"forcetoenablemotion" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"Damagetype" "0"
+	"damagetoenablemotion" "0"
+	"BreakableType" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "prop_physics"
+}
+entity
+{
+	"id" "321"
+	"wait" "3"
+	"unlocked_sound" "0"
+	"unlocked_sentence" "0"
+	"targetname" "gasbutton"
+	"speed" "50"
+	"spawnflags" "0"
+	"sounds" "32"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 0 0"
+	"renderamt" "255"
+	"origin" "-406.39 350.32 53"
+	"movedir" "0 0 0"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"locked_sound" "0"
+	"locked_sentence" "0"
+	"lip" "0"
+	"health" "0"
+	"glow" "buttonprop"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"disablereceiveshadows" "0"
+	"classname" "func_button"
+}
+entity
+{
+	"id" "695"
+	"origin" "-246 962 15"
+	"spawnflags" "256"
+	"skin" "0"
+	"shadowcastdist" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"pressuredelay" "0"
+	"physdamagescale" "0.1"
+	"PerformanceMode" "0"
+	"nodamageforces" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"minhealthdmg" "0"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"massScale" "0"
+	"inertiaScale" "1.0"
+	"glowstate" "0"
+	"glowrange" "0"
+	"glowcolor" "0 0 0"
+	"forcetoenablemotion" "0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"Damagetype" "0"
+	"damagetoenablemotion" "0"
+	"BreakableType" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "prop_physics"
+}
+entity
+{
+	"id" "792"
+	"origin" "-356.949 741.003 9"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 39 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "829"
+	"origin" "-182 746 51"
+	"targetname" "director"
+	"classname" "info_director"
+}
+entity
+{
+	"id" "861"
+	"origin" "-88.8966 874 2"
+	"targetname" "survivorPos_intro_04"
+	"SurvivorName" "rochelle"
+	"SurvivorIntroSequence" "c4m1_intro_producer"
+	"Order" "1"
+	"GameMode" "scavenge"
+	"angles" "0 191 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "863"
+	"origin" "-86.1393 909.477 2"
+	"targetname" "survivorPos_intro_02"
+	"SurvivorName" "nick"
+	"SurvivorIntroSequence" "c4m1_intro_gambler"
+	"Order" "1"
+	"GameMode" "scavenge"
+	"angles" "0 212 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "865"
+	"origin" "-120.578 936.867 2"
+	"targetname" "survivorPos_intro_03"
+	"SurvivorName" "coach"
+	"SurvivorIntroSequence" "c4m1_intro_coach"
+	"Order" "1"
+	"GameMode" "survival"
+	"angles" "0 243 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "867"
+	"origin" "-158 915.525 6"
+	"targetname" "survivorPos_intro_01"
+	"SurvivorName" "ellis"
+	"SurvivorIntroSequence" "c4m1_intro_mechanic"
+	"Order" "1"
+	"angles" "0 247 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "936"
+	"origin" "-182 772 50"
+	"targetname" "relay_intro_start"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "directorForceSurvivorPositions0-1"
+		"OnTrigger" "fade_introFade0-1"
+		"OnTrigger" "relay_intro_finishedTrigger8.5-1"
+		"OnTrigger" "multiplay_camera1Enable0-1"
+		"OnTrigger" "multiplay_camera1StartMovement0.01-1"
+		"OnTrigger" "relay_fade_transitionTrigger4-1"
+		"OnTrigger" "multiplay_camera2Enable4.5-1"
+		"OnTrigger" "multiplay_camera2StartMovement4.51-1"
+		"OnTrigger" "directorStartIntro0-1"
+	}
+}
+entity
+{
+	"id" "942"
+	"origin" "-182 800 50"
+	"targetname" "relay_intro_finished"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "directorReleaseSurvivorPositions0.6-1"
+		"OnTrigger" "directorFinishIntro1-1"
+		"OnTrigger" "relay_fade_transitionTrigger0-1"
+		"OnTrigger" "multiplay_camera2Disable0.5-1"
+	}
+}
+entity
+{
+	"id" "1149"
+	"origin" "-182 822 70"
+	"targetname" "fade_transition_out"
+	"spawnflags" "0"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"holdtime" "1"
+	"duration" "0.5"
+	"classname" "env_fade"
+}
+entity
+{
+	"id" "1246"
+	"origin" "-15.7389 993.786 104.272"
+	"targetname" "camera_intro_survivor_04"
+	"spawnflags" "1"
+	"fov_rate" "0"
+	"fov" "35"
+	"angles" "1.2276 228.785 -0.999979"
+	"classname" "point_viewcontrol_survivor"
+}
+entity
+{
+	"id" "1248"
+	"origin" "-22.9316 997.281 104.272"
+	"targetname" "camera_intro_survivor_03"
+	"spawnflags" "1"
+	"fov_rate" "0"
+	"fov" "35"
+	"angles" "1.2276 228.785 -0.999979"
+	"classname" "point_viewcontrol_survivor"
+}
+entity
+{
+	"id" "1250"
+	"origin" "-30.122 1000.79 104.272"
+	"targetname" "camera_intro_survivor_02"
+	"spawnflags" "1"
+	"fov_rate" "0"
+	"fov" "35"
+	"angles" "1.2276 228.785 -0.999979"
+	"classname" "point_viewcontrol_survivor"
+}
+entity
+{
+	"id" "1252"
+	"origin" "-37.3124 1004.29 104.272"
+	"targetname" "camera_intro_survivor_01"
+	"spawnflags" "1"
+	"fov_rate" "0"
+	"fov" "35"
+	"angles" "1.2276 228.785 -0.999979"
+	"classname" "point_viewcontrol_survivor"
+}
+entity
+{
+	"id" "1794"
+	"origin" "-496 778 91"
+	"targetname" "multiplay_camera1"
+	"target_entity" "multiplay_camera1_target"
+	"target_ent" "survivorPos_intro_01"
+	"spawnflags" "0"
+	"interp_time" "5"
+	"fov_rate" "1.0"
+	"fov" "90"
+	"angles" "20.0523 264.38 -0.356001"
+	"classname" "point_viewcontrol_multiplayer"
+}
+entity
+{
+	"id" "1956"
+	"origin" "-250 578 94"
+	"targetname" "multiplay_camera1_target"
+	"spawnflags" "0"
+	"interp_time" "1.0"
+	"fov_rate" "1.0"
+	"fov" "90"
+	"angles" "18.3041 179.644 -0.109546"
+	"classname" "point_viewcontrol_multiplayer"
+}
+entity
+{
+	"id" "2331"
+	"wheels" "50"
+	"volume" "10"
+	"velocitytype" "0"
+	"targetname" "cam2_train"
+	"target" "cam2_path1"
+	"startspeed" "50"
+	"speed" "0"
+	"spawnflags" "514"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"origin" "-846.15 279.54 77"
+	"orientationtype" "2"
+	"MoveSoundMinTime" "0"
+	"MoveSoundMinPitch" "60"
+	"MoveSoundMaxTime" "0"
+	"MoveSoundMaxPitch" "200"
+	"mingpulevel" "0"
+	"mincpulevel" "0"
+	"maxgpulevel" "0"
+	"maxcpulevel" "0"
+	"height" "4"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"fademaxdist" "0"
+	"dmg" "0"
+	"disableX360" "0"
+	"disableshadows" "0"
+	"disablereceiveshadows" "0"
+	"bank" "0"
+	"classname" "func_tracktrain"
+}
+entity
+{
+	"id" "2781"
+	"origin" "-683 704.45 79.19"
+	"classname" "point_prop_use_target"
+}
+entity
+{
+	"id" "2892"
+	"origin" "-182 772 70"
+	"targetname" "fade_intro"
+	"spawnflags" "1"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"holdtime" "1"
+	"duration" "2.5"
+	"classname" "env_fade"
+}
+entity
+{
+	"id" "3172"
+	"origin" "-182 822.167 88.7609"
+	"targetname" "fade_transition_in"
+	"spawnflags" "1"
+	"rendercolor" "0 0 0"
+	"renderamt" "255"
+	"holdtime" "0"
+	"duration" "0.5"
+	"classname" "env_fade"
+}
+entity
+{
+	"id" "3230"
+	"origin" "-182 821.572 50.7832"
+	"targetname" "relay_fade_transition"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "fade_transition_outFade0-1"
+		"OnTrigger" "fade_transition_inFade0.5-1"
+	}
+}
+entity
+{
+	"id" "3352"
+	"origin" "-554.289 493.833 43.5054"
+	"targetname" "multiplay_camera2"
+	"target_entity" "multiplay_camera2_target"
+	"target_ent" "survivorPos_intro_01"
+	"spawnflags" "0"
+	"interp_time" "5"
+	"fov_rate" "1.0"
+	"fov" "90"
+	"angles" "-8.44713 41.8609 -0.539307"
+	"classname" "point_viewcontrol_multiplayer"
+}
+entity
+{
+	"id" "3426"
+	"origin" "-158 850 115.222"
+	"targetname" "multiplay_camera2_target"
+	"spawnflags" "0"
+	"interp_time" "1.0"
+	"fov_rate" "1.0"
+	"fov" "90"
+	"angles" "26.8023 52.3238 -0.543327"
+	"classname" "point_viewcontrol_multiplayer"
+}
+entity
+{
+	"id" "3472"
+	"origin" "-620.19 93.711 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3474"
+	"origin" "-625.273 130.119 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3476"
+	"origin" "-630.79 174.089 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3478"
+	"origin" "-587.054 167.206 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3480"
+	"origin" "-590.013 128.266 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3482"
+	"origin" "-590.367 96.7388 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3484"
+	"origin" "-563.636 97.0263 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3486"
+	"origin" "-566.86 126.955 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3488"
+	"origin" "-565.479 165.951 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3490"
+	"origin" "-543.87 168.26 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3492"
+	"origin" "-547.004 126.676 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3494"
+	"origin" "-548.563 98.5447 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3496"
+	"origin" "-527.292 127.057 11.4693"
+	"spawnflags" "2"
+	"solid" "0"
+	"skin" "0"
+	"model" "models/props_junk/gascan001a.mdl"
+	"glowstate" "3"
+	"disableshadows" "0"
+	"body" "0"
+	"angles" "0 0 0"
+	"classname" "weapon_scavenge_item_spawn"
+}
+entity
+{
+	"id" "3498"
+	"angles" "-0 134.5 0"
+	"targetname" "pour_target"
+	"origin" "-482.314 617.226 59.76"
+	"nozzle" "gas_nozzle"
+	"classname" "point_prop_use_target"
+}
+entity
+{
+	"id" "3501"
+	"angles" "-0 134.5 0"
+	"origin" "-483.703 608.647 68.758"
+	"targetname" "event_scavenge_pour"
+	"spawnflags" "1"
+	"range" "800"
+	"event_name" "explain_scavenge_goal"
+	"classname" "info_game_event_proxy"
+}
+entity
+{
+	"id" "3507"
+	"origin" "-522.15 572.084 4.774"
+	"updatechildren" "0"
+	"targetname" "prop_generator_scavenge"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"solid" "6"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "234 171 102"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/props_vehicles/radio_generator.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"glowstate" "0"
+	"glowrange" "0"
+	"glowcolor" "0 0 0"
+	"fadescale" "1"
+	"fademindist" "2000"
+	"fademaxdist" "2200"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "1"
+	"body" "0"
+	"angles" "-0 134.5 0"
+	"classname" "prop_dynamic"
+}
+entity
+{
+	"id" "3556"
+	"angles" "-0 134.5 0"
+	"origin" "-567.977 527.142 68"
+	"Template09" "sprite_scvng_gen_indicator"
+	"Template08" "sprite_scvng_gen"
+	"Template07" "snd_scvng_gen_sputter"
+	"Template06" "snd_scvng_gen_stop"
+	"Template05" "snd_scvng_gen"
+	"Template04" "gas_nozzle"
+	"Template03" "pour_target"
+	"Template02" "event_scavenge_pour"
+	"Template01" "prop_generator_scavenge"
+	"targetname" "template_scavenge_generator"
+	"spawnflags" "2"
+	"classname" "point_template"
+	connections
+	{
+		"OnEntitySpawned" "snd_scvng_genPlaySound2-1"
+		"OnEntitySpawned" "particle_scvng_genStart2-1"
+	}
+}
+entity
+{
+	"id" "3571"
+	"angles" "-0 134.5 0"
+	"origin" "-480.26 611.94 36"
+	"volstart" "0"
+	"targetname" "snd_scvng_gen"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "16"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "scavenge.generator_on_loop"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+}
+entity
+{
+	"id" "3608"
+	"angles" "-0 134.5 0"
+	"origin" "-474.554 617.547 36"
+	"volstart" "0"
+	"targetname" "snd_scvng_gen_stop"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "scavenge.generator_turnoff"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+}
+entity
+{
+	"id" "3665"
+	"angles" "-0 134.5 0"
+	"origin" "-480.26 611.94 28"
+	"volstart" "0"
+	"targetname" "snd_scvng_gen_sputter"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "16"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "scavenge.generator_sputter_loop"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+}
+entity
+{
+	"id" "3703"
+	"angles" "-0 134.5 0"
+	"origin" "-475.652 592.983 33"
+	"targetname" "sprite_scvng_gen"
+	"spawnflags" "1"
+	"scale" "0.39"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "255 61 55"
+	"renderamt" "240"
+	"model" "sprites/light_glow01.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" ".7"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+}
+entity
+{
+	"id" "3754"
+	"angles" "-0 134.5 0"
+	"origin" "-500.184 617.947 33"
+	"targetname" "sprite_scvng_gen"
+	"spawnflags" "1"
+	"scale" "0.39"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "255 61 55"
+	"renderamt" "240"
+	"model" "sprites/light_glow01.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" ".7"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+}
+entity
+{
+	"id" "4066"
+	"origin" "-519.476 574.804 62"
+	"targetname" "particle_scvng_gen"
+	"start_active" "0"
+	"effect_name" "smoke_exhaust_01"
+	"cpoint7_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint1_parent" "0"
+	"angles" "-90 134.5 0"
+	"classname" "info_particle_system"
+}
+entity
+{
+	"id" "4151"
+	"angles" "-0 134.5 0"
+	"origin" "-568.174 504.515 36"
+	"targetname" "relay_scvng_overtime_start"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "snd_scvng_gen_sputterPlaySound0-1"
+		"OnTrigger" "particle_scvng_genStop0-1"
+		"OnTrigger" "timer_scvng_state_overtimeEnable0.01-1"
+		"OnTrigger" "sprite_scvng_gen_indicatorColor255 16 160-1"
+		"OnTrigger" "timer_scvng_state_dangerDisable0-1"
+		"OnTrigger" "sprite_scvng_gen_indicatorAlpha2550.01-1"
+		"OnTrigger" "snd_scvng_genStopSound0-1"
+	}
+}
+entity
+{
+	"id" "4182"
+	"angles" "-0 134.5 0"
+	"origin" "-590.604 527.339 36"
+	"targetname" "relay_scvng_timer_expire"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "timer_scvng_state_dangerDisable0-1"
+		"OnTrigger" "timer_scvng_state_overtimeDisable0-1"
+		"OnTrigger" "sprite_scvng_genHideSprite0.01-1"
+		"OnTrigger" "sprite_scvng_gen_indicatorHideSprite0.01-1"
+		"OnTrigger" "particle_scvng_genStop0-1"
+		"OnTrigger" "snd_scvng_gen_sputterStopSound0-1"
+		"OnTrigger" "snd_scvng_genStopSound0-1"
+		"OnTrigger" "snd_scvng_gen_stopPlaySound0-1"
+	}
+}
+entity
+{
+	"id" "4188"
+	"angles" "-0 134.5 0"
+	"origin" "-556.762 515.73 36"
+	"targetname" "relay_scvng_intensity_normal"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "sprite_scvng_gen_indicatorColor16 255 160-1"
+		"OnTrigger" "timer_scvng_state_dangerDisable0-1"
+		"OnTrigger" "timer_scvng_state_overtimeDisable0-1"
+		"OnTrigger" "sprite_scvng_gen_indicatorAlpha2550.01-1"
+		"OnTrigger" "particle_scvng_genStart0-1"
+		"OnTrigger" "sprite_scvng_genShowSprite0.01-1"
+		"OnTrigger" "snd_scvng_genPlaySound0-1"
+		"OnTrigger" "snd_scvng_gen_sputterStopSound0-1"
+	}
+}
+entity
+{
+	"id" "4194"
+	"angles" "-0 134.5 0"
+	"origin" "-579.192 538.554 36"
+	"targetname" "relay_scvng_intensity_danger"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "sprite_scvng_gen_indicatorColor200 200 160-1"
+		"OnTrigger" "sprite_scvng_gen_indicatorAlpha2550.01-1"
+		"OnTrigger" "timer_scvng_state_overtimeDisable0-1"
+		"OnTrigger" "timer_scvng_state_dangerEnable0.02-1"
+		"OnTrigger" "particle_scvng_genStart0-1"
+		"OnTrigger" "sprite_scvng_genShowSprite0.01-1"
+		"OnTrigger" "snd_scvng_gen_sputterStopSound0-1"
+		"OnTrigger" "snd_scvng_genPlaySound0-1"
+	}
+}
+entity
+{
+	"id" "4233"
+	"angles" "-0 134.5 0"
+	"origin" "-442.741 616.562 52"
+	"UseRandomTime" "0"
+	"targetname" "timer_scvng_state_danger"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"RefireTime" "1.5"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "sprite_scvng_gen_indicatorAlpha600-1"
+		"OnTimer" "sprite_scvng_gen_indicatorAlpha2550.4-1"
+	}
+}
+entity
+{
+	"id" "4287"
+	"angles" "-0 134.5 0"
+	"origin" "-453.956 627.974 52"
+	"UseRandomTime" "0"
+	"targetname" "timer_scvng_state_overtime"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"RefireTime" "0.6"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "sprite_scvng_gen_indicatorAlpha800-1"
+		"OnTimer" "sprite_scvng_gen_indicatorAlpha2550.3-1"
+	}
+}
+entity
+{
+	"id" "4392"
+	"angles" "-0 134.5 0"
+	"origin" "-465.17 639.386 52"
+	"UseRandomTime" "1"
+	"UpperRandomBound" "1"
+	"targetname" "timer_scvng_state_overtime"
+	"StartDisabled" "1"
+	"spawnflags" "0"
+	"LowerRandomBound" "0.1"
+	"classname" "logic_timer"
+	connections
+	{
+		"OnTimer" "sprite_scvng_genToggleSprite0-1"
+	}
+}
+entity
+{
+	"id" "4546"
+	"angles" "-0 134.5 0"
+	"origin" "-579.389 515.927 52"
+	"targetname" "case_scvng_intensity"
+	"spawnflags" "0"
+	"Case06" "6"
+	"Case05" "5"
+	"Case04" "4"
+	"Case03" "3"
+	"Case02" "2"
+	"Case01" "1"
+	"classname" "logic_case"
+	connections
+	{
+		"OnCase01" "relay_scvng_intensity_dangerTrigger0-1"
+		"OnCase02" "relay_scvng_intensity_dangerTrigger0-1"
+		"OnCase03" "relay_scvng_intensity_dangerTrigger0-1"
+		"OnCase04" "relay_scvng_intensity_dangerTrigger0-1"
+		"OnCase05" "relay_scvng_intensity_normalTrigger0-1"
+		"OnCase06" "relay_scvng_intensity_normalTrigger0-1"
+	}
+}
+entity
+{
+	"id" "4659"
+	"angles" "-0 134.5 0"
+	"origin" "-523.372 553.8 102.5"
+	"targetname" "sprite_scvng_gen_indicator"
+	"spawnflags" "1"
+	"scale" "0.8"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "55 255 65"
+	"renderamt" "255"
+	"model" "sprites/light_glow01.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" ".7"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+}
+entity
+{
+	"id" "4818"
+	"angles" "-0 134.5 0"
+	"origin" "-532.771 575.671 232.25"
+	"targetname" "sprite_scvng_gen_indicator"
+	"spawnflags" "1"
+	"scale" "0.8"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "55 255 65"
+	"renderamt" "255"
+	"model" "sprites/light_glow01.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" ".7"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+}
+entity
+{
+	"id" "5053"
+	"angles" "-0 134.5 0"
+	"origin" "-514.619 564.154 286.75"
+	"targetname" "sprite_scvng_gen_indicator"
+	"spawnflags" "1"
+	"scale" "0.3"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "55 255 65"
+	"renderamt" "255"
+	"model" "sprites/light_glow01.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" ".7"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+}
+entity
+{
+	"id" "5168"
+	"origin" "-522.15 572.084 4.774"
+	"updatechildren" "0"
+	"targetname" "gas_nozzle"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"solid" "0"
+	"skin" "0"
+	"SetBodyGroup" "0"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"RandomAnimation" "0"
+	"pressuredelay" "0"
+	"PerformanceMode" "0"
+	"model" "models/props_vehicles/radio_generator_fillup.mdl"
+	"MinAnimTime" "5"
+	"MaxAnimTime" "10"
+	"glowstate" "3"
+	"glowrange" "1800"
+	"glowcolor" "255 31 26"
+	"fadescale" "1"
+	"fademindist" "2000"
+	"fademaxdist" "2200"
+	"ExplodeRadius" "0"
+	"ExplodeDamage" "0"
+	"disableshadows" "1"
+	"disablereceiveshadows" "1"
+	"body" "0"
+	"angles" "-0 134.5 0"
+	"classname" "prop_dynamic"
+}
+entity
+{
+	"id" "5275"
+	"angles" "-0 134.5 0"
+	"origin" "-519.738 554.918 62.9375"
+	"targetname" "sprite_scvng_gen"
+	"spawnflags" "1"
+	"scale" "0.1"
+	"rendermode" "9"
+	"renderfx" "0"
+	"rendercolor" "255 61 55"
+	"renderamt" "255"
+	"model" "sprites/light_glow01.vmt"
+	"mindxlevel" "0"
+	"maxdxlevel" "0"
+	"HDRColorScale" ".7"
+	"GlowProxySize" "4"
+	"framerate" "10.0"
+	"fadescale" "1"
+	"fademindist" "-1"
+	"disablereceiveshadows" "0"
+	"classname" "env_sprite"
+}
+visgroups
+{
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-768 67.2843 93.2386]"
+		"look" "[-768 320 9]"
+	}
+}
