@@ -11,7 +11,7 @@ See "File Hashes and Information.txt" for MD5, SHA1, File Sizes and more.
 Commentary PC Live (Latest Only):
 
 	Best PC _commentary.txt files. TLS Community Updates reduce some
-	File Sizes due to optmization, VScript conversion, or integration
+	File Sizes due to optimization, VScript conversion, or integration
 	into *.LMP files. Very high entropy.
 
 Commentary Survivors Arcade (Largest Only):
