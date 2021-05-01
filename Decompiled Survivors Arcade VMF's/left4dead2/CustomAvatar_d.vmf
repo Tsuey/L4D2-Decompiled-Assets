@@ -1,0 +1,490 @@
+world
+{
+	"id" "1"
+	"skyname" "sky_l4d_rural02_hdr"
+	"musicpostfix" "Waterfront"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"mapversion" "4"
+	"comment" "Decompiled by BSPSource v1.4.0 from CustomAvatar"
+	"classname" "worldspawn"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "3"
+			"plane" "(-384 -256 192) (-384 -256 -64) (-384 256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-352 256 192) (-352 256 -64) (-352 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-352 -256 192) (-352 -256 -64) (-384 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-384 256 192) (-384 256 -64) (-352 256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(-384 256 -64) (-384 -256 -64) (-352 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-384 -256 192) (-384 256 192) (-352 256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "10"
+			"plane" "(-384 224 192) (-384 224 -64) (-384 256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(128 256 192) (128 256 -64) (128 224 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(128 224 192) (128 224 -64) (-384 224 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(-384 256 192) (-384 256 -64) (128 256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-384 256 -64) (-384 224 -64) (128 224 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-384 224 192) (-384 256 192) (128 256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "16"
+		side
+		{
+			"id" "17"
+			"plane" "(-384 -224 -64) (-384 -256 -64) (128 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(-384 -256 192) (-384 -224 192) (128 -224 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(-384 -256 192) (-384 -256 -64) (-384 -224 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(128 -224 192) (128 -224 -64) (128 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(128 -256 192) (128 -256 -64) (-384 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-384 -224 192) (-384 -224 -64) (128 -224 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "23"
+		side
+		{
+			"id" "24"
+			"plane" "(96 -256 192) (96 -256 -64) (96 256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(128 256 192) (128 256 -64) (128 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(128 -256 192) (128 -256 -64) (96 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(96 256 192) (96 256 -64) (128 256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(96 256 -64) (96 -256 -64) (128 -256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(96 -256 192) (96 256 192) (128 256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "30"
+		side
+		{
+			"id" "31"
+			"plane" "(-384 -256 -64) (-384 -256 -96) (-384 256 -96)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(128 256 -64) (128 256 -96) (128 -256 -96)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(128 -256 -64) (128 -256 -96) (-384 -256 -96)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-384 256 -64) (-384 256 -96) (128 256 -96)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-384 256 -96) (-384 -256 -96) (128 -256 -96)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "36"
+			"plane" "(-384 -256 -64) (-384 256 -64) (128 256 -64)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "37"
+		side
+		{
+			"id" "38"
+			"plane" "(128 -256 224) (128 -256 192) (-384 -256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(-384 256 224) (-384 256 192) (128 256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-384 256 192) (-384 -256 192) (128 -256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-384 -256 224) (-384 256 224) (128 256 224)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "42"
+			"plane" "(-384 -256 224) (-384 -256 192) (-384 256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(128 256 224) (128 256 192) (128 -256 192)"
+			"smoothing_groups" "0"
+			"material" "dev/black_cheap"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "48"
+	"origin" "-288 128 -64"
+	"targetname" "position1"
+	"Order" "1"
+	"angles" "0 0 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "50"
+	"origin" "-192 128 96"
+	"targetname" "director"
+	"classname" "info_director"
+	connections
+	{
+		"OnGameplayStart" "start_relayTrigger0-1"
+	}
+}
+entity
+{
+	"id" "86"
+	"origin" "-288 96 -61.5437"
+	"targetname" "position2"
+	"Order" "1"
+	"angles" "0 0 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "102"
+	"origin" "-288 64 -64.8344"
+	"targetname" "position3"
+	"Order" "1"
+	"angles" "0 0 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "112"
+	"origin" "-288 32 -64"
+	"targetname" "position4"
+	"Order" "1"
+	"angles" "0 0 0"
+	"classname" "info_survivor_position"
+}
+entity
+{
+	"id" "120"
+	"origin" "-32 0 64"
+	"targetname" "camera"
+	"spawnflags" "1"
+	"interp_time" "1.0"
+	"hud_type" "0"
+	"fov_rate" "1.0"
+	"fov" "90"
+	"angles" "0 0 0"
+	"classname" "point_viewcontrol_nongamestage"
+}
+entity
+{
+	"id" "129"
+	"origin" "-224 64 -64"
+	"spawnflags" "0"
+	"angles" "0 0 0"
+	"classname" "info_player_start"
+}
+entity
+{
+	"id" "136"
+	"origin" "-192 96 96"
+	"targetname" "start_relay"
+	"StartDisabled" "0"
+	"spawnflags" "0"
+	"classname" "logic_relay"
+	connections
+	{
+		"OnTrigger" "directorForceSurvivorPositions0-1"
+		"OnTrigger" "cameraEnable0-1"
+	}
+}
+visgroups
+{
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-284.7157 64 20.2386]"
+		"look" "[-32 64 -64]"
+	}
+}
